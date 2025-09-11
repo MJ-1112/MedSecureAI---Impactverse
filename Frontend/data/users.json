@@ -1,0 +1,12 @@
+[
+  {
+    "id": "U1",
+    "name": "Akshat Jha",
+    "email": "akshat@example.com",
+    "phone": "+91-9999999999",
+    "address": "Mumbai, India",
+    "photo": "/public/images/profile-placeholder.png",
+    "joined": "2023-04-12",
+    "theme": "light"
+  }
+]

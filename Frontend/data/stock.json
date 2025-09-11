@@ -1,0 +1,23 @@
+[
+  {
+    "sku": "MED-001",
+    "name": "Paracetamol",
+    "stock": 120,
+    "dosage": "500mg",
+    "top_orders": 50
+  },
+  {
+    "sku": "MED-002",
+    "name": "Amoxicillin",
+    "stock": 45,
+    "dosage": "250mg",
+    "top_orders": 20
+  },
+  {
+    "sku": "MED-003",
+    "name": "Ibuprofen",
+    "stock": 200,
+    "dosage": "200mg",
+    "top_orders": 70
+  }
+]
