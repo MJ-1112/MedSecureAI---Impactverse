@@ -1,0 +1,33 @@
+{
+  "prediction_accuracy": 92.5,
+  "blockchain_entries": 1523,
+  "counterfeit_cases_detected": 47,
+  "supply_chain_nodes": 28,
+  "monthlyTrend": [
+    {
+      "month": "Apr",
+      "entries": 90,
+      "alerts": 4
+    },
+    {
+      "month": "May",
+      "entries": 140,
+      "alerts": 6
+    },
+    {
+      "month": "Jun",
+      "entries": 210,
+      "alerts": 10
+    },
+    {
+      "month": "Jul",
+      "entries": 300,
+      "alerts": 9
+    },
+    {
+      "month": "Aug",
+      "entries": 420,
+      "alerts": 8
+    }
+  ]
+}

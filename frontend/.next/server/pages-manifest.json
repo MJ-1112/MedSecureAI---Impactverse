@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/profile": "pages/profile.js",
+  "/dashboard": "pages/dashboard.js",
+  "/orders": "pages/orders.js",
+  "/meddata": "pages/meddata.js",
+  "/api/stock": "pages/api/stock.js",
+  "/api/users": "pages/api/users.js",
+  "/logout": "pages/logout.js"
+}
