@@ -34,7 +34,7 @@ export default function Signup() {
     if (!validate()) return
     setLoading(true)
     try {
-      const res = await fetch("/api/auth/signup", {
+      const res = await fetch("https://medsecureai-impactverse.onrender.com//auth/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, name, password }),
