@@ -1,8 +1,8 @@
 {
-  "pages\\index.js -> ./dashboard": {
-    "id": "pages\\index.js -> ./dashboard",
+  "pages\\dashboard.jsx -> @/components/charts/DashboardBar": {
+    "id": "pages\\dashboard.jsx -> @/components/charts/DashboardBar",
     "files": [
-      "static/chunks/pages_dashboard_js.js"
+      "static/chunks/components_charts_DashboardBar_jsx.js"
     ]
   }
 }

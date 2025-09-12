@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"pages\\\\index.js -> ./dashboard\":{\"id\":\"pages\\\\index.js -> ./dashboard\",\"files\":[\"static/chunks/pages_dashboard_js.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{\"pages\\\\dashboard.jsx -> @/components/charts/DashboardBar\":{\"id\":\"pages\\\\dashboard.jsx -> @/components/charts/DashboardBar\",\"files\":[\"static/chunks/components_charts_DashboardBar_jsx.js\"]}}"

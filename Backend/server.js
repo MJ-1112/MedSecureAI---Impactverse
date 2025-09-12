@@ -1,28 +1,25 @@
-// server.js
-import express from "express";
-import dotenv from "dotenv";
+import express from 'express';
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+import authRoutes from './Routes/auth.js';
+import profileRoutes from './Routes/profile.js';
+import csvRoutes from './Routes/csv.js';
+import orderRoutes from './Routes/orders.js';
+import verifyRoutes from './Routes/verify.js';
+
 dotenv.config();
-import "./Modules/db.js";
-import cors from "cors";
-
-import AuthRouter from "./Routes/AuthRouter.js";
-import DashboardRouter from "./Routes/DashboardRouter.js";
-
 const app = express();
-const Port = process.env.PORT || 5000;
+app.use(express.json());
 
-// middleware
-app.use(express.json());       // 👈 this is the key line
-app.use(cors());
+mongoose.connect(process.env.MONGO_URI)
+.then(()=>console.log('MongoDB connected'))
+.catch(err=>console.log(err));
 
-// routes
-app.use("/auth", AuthRouter);
-app.use("/dashboard", DashboardRouter);
+app.use('/auth', authRoutes);
+app.use('/profile', profileRoutes);
+app.use('/csv', csvRoutes);
+app.use('/orders', orderRoutes);
+app.use('/verify', verifyRoutes);
 
-app.get("/", (req, res) => {
-  res.send("Hello from root");
-});
-
-app.listen(Port, () => {
-  console.log(`Server running on http://localhost:${Port}`);
-});
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, ()=>console.log(`Server running on port ${PORT}`));
