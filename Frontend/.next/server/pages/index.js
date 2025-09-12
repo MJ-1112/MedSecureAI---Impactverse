@@ -1,0 +1,607 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
+exports.modules = {
+
+/***/ "__barrel_optimize__?names=Bell,Moon,Sun!=!./node_modules/lucide-react/dist/esm/lucide-react.js":
+/*!******************************************************************************************************!*\
+  !*** __barrel_optimize__?names=Bell,Moon,Sun!=!./node_modules/lucide-react/dist/esm/lucide-react.js ***!
+  \******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Bell: () => (/* reexport safe */ _icons_bell_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   Moon: () => (/* reexport safe */ _icons_moon_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   Sun: () => (/* reexport safe */ _icons_sun_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _icons_bell_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./icons/bell.js */ \"./node_modules/lucide-react/dist/esm/icons/bell.js\");\n/* harmony import */ var _icons_moon_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons/moon.js */ \"./node_modules/lucide-react/dist/esm/icons/moon.js\");\n/* harmony import */ var _icons_sun_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./icons/sun.js */ \"./node_modules/lucide-react/dist/esm/icons/sun.js\");\n\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiX19iYXJyZWxfb3B0aW1pemVfXz9uYW1lcz1CZWxsLE1vb24sU3VuIT0hLi9ub2RlX21vZHVsZXMvbHVjaWRlLXJlYWN0L2Rpc3QvZXNtL2x1Y2lkZS1yZWFjdC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQ2lEO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tZWRzZWN1cmVhaS1wcm8vLi9ub2RlX21vZHVsZXMvbHVjaWRlLXJlYWN0L2Rpc3QvZXNtL2x1Y2lkZS1yZWFjdC5qcz80MWU2Il0sInNvdXJjZXNDb250ZW50IjpbIlxuZXhwb3J0IHsgZGVmYXVsdCBhcyBCZWxsIH0gZnJvbSBcIi4vaWNvbnMvYmVsbC5qc1wiXG5leHBvcnQgeyBkZWZhdWx0IGFzIE1vb24gfSBmcm9tIFwiLi9pY29ucy9tb29uLmpzXCJcbmV4cG9ydCB7IGRlZmF1bHQgYXMgU3VuIH0gZnJvbSBcIi4vaWNvbnMvc3VuLmpzXCIiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///__barrel_optimize__?names=Bell,Moon,Sun!=!./node_modules/lucide-react/dist/esm/lucide-react.js\n");
+
+/***/ }),
+
+/***/ "__barrel_optimize__?names=Database,Home,LogOut,PackageSearch,User!=!./node_modules/lucide-react/dist/esm/lucide-react.js":
+/*!********************************************************************************************************************************!*\
+  !*** __barrel_optimize__?names=Database,Home,LogOut,PackageSearch,User!=!./node_modules/lucide-react/dist/esm/lucide-react.js ***!
+  \********************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Database: () => (/* reexport safe */ _icons_database_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   Home: () => (/* reexport safe */ _icons_house_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   LogOut: () => (/* reexport safe */ _icons_log_out_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   PackageSearch: () => (/* reexport safe */ _icons_package_search_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"]),\n/* harmony export */   User: () => (/* reexport safe */ _icons_user_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _icons_database_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./icons/database.js */ \"./node_modules/lucide-react/dist/esm/icons/database.js\");\n/* harmony import */ var _icons_house_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons/house.js */ \"./node_modules/lucide-react/dist/esm/icons/house.js\");\n/* harmony import */ var _icons_log_out_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./icons/log-out.js */ \"./node_modules/lucide-react/dist/esm/icons/log-out.js\");\n/* harmony import */ var _icons_package_search_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icons/package-search.js */ \"./node_modules/lucide-react/dist/esm/icons/package-search.js\");\n/* harmony import */ var _icons_user_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/user.js */ \"./node_modules/lucide-react/dist/esm/icons/user.js\");\n\n\n\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiX19iYXJyZWxfb3B0aW1pemVfXz9uYW1lcz1EYXRhYmFzZSxIb21lLExvZ091dCxQYWNrYWdlU2VhcmNoLFVzZXIhPSEuL25vZGVfbW9kdWxlcy9sdWNpZGUtcmVhY3QvZGlzdC9lc20vbHVjaWRlLXJlYWN0LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQ3lEO0FBQ1A7QUFDSTtBQUNjIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkc2VjdXJlYWktcHJvLy4vbm9kZV9tb2R1bGVzL2x1Y2lkZS1yZWFjdC9kaXN0L2VzbS9sdWNpZGUtcmVhY3QuanM/N2JhMyJdLCJzb3VyY2VzQ29udGVudCI6WyJcbmV4cG9ydCB7IGRlZmF1bHQgYXMgRGF0YWJhc2UgfSBmcm9tIFwiLi9pY29ucy9kYXRhYmFzZS5qc1wiXG5leHBvcnQgeyBkZWZhdWx0IGFzIEhvbWUgfSBmcm9tIFwiLi9pY29ucy9ob3VzZS5qc1wiXG5leHBvcnQgeyBkZWZhdWx0IGFzIExvZ091dCB9IGZyb20gXCIuL2ljb25zL2xvZy1vdXQuanNcIlxuZXhwb3J0IHsgZGVmYXVsdCBhcyBQYWNrYWdlU2VhcmNoIH0gZnJvbSBcIi4vaWNvbnMvcGFja2FnZS1zZWFyY2guanNcIlxuZXhwb3J0IHsgZGVmYXVsdCBhcyBVc2VyIH0gZnJvbSBcIi4vaWNvbnMvdXNlci5qc1wiIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///__barrel_optimize__?names=Database,Home,LogOut,PackageSearch,User!=!./node_modules/lucide-react/dist/esm/lucide-react.js\n");
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2F&preferredRegion=&absolutePagePath=.%2Fpages%5Cindex.js&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D!":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2F&preferredRegion=&absolutePagePath=.%2Fpages%5Cindex.js&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D! ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   config: () => (/* binding */ config),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   getServerSideProps: () => (/* binding */ getServerSideProps),\n/* harmony export */   getStaticPaths: () => (/* binding */ getStaticPaths),\n/* harmony export */   getStaticProps: () => (/* binding */ getStaticProps),\n/* harmony export */   reportWebVitals: () => (/* binding */ reportWebVitals),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   unstable_getServerProps: () => (/* binding */ unstable_getServerProps),\n/* harmony export */   unstable_getServerSideProps: () => (/* binding */ unstable_getServerSideProps),\n/* harmony export */   unstable_getStaticParams: () => (/* binding */ unstable_getStaticParams),\n/* harmony export */   unstable_getStaticPaths: () => (/* binding */ unstable_getStaticPaths),\n/* harmony export */   unstable_getStaticProps: () => (/* binding */ unstable_getStaticProps)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/pages/module.compiled */ \"./node_modules/next/dist/server/future/route-modules/pages/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/build/templates/helpers */ \"./node_modules/next/dist/build/templates/helpers.js\");\n/* harmony import */ var private_next_pages_document__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! private-next-pages/_document */ \"./pages/_document.js\");\n/* harmony import */ var private_next_pages_app__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! private-next-pages/_app */ \"./pages/_app.js\");\n/* harmony import */ var _pages_index_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages\\index.js */ \"./pages/index.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([private_next_pages_app__WEBPACK_IMPORTED_MODULE_4__]);\nprivate_next_pages_app__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n// Import the app and document modules.\n\n\n// Import the userland code.\n\n// Re-export the component (should be the default export).\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"default\"));\n// Re-export methods.\nconst getStaticProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"getStaticProps\");\nconst getStaticPaths = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"getStaticPaths\");\nconst getServerSideProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"getServerSideProps\");\nconst config = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"config\");\nconst reportWebVitals = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"reportWebVitals\");\n// Re-export legacy methods.\nconst unstable_getStaticProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getStaticProps\");\nconst unstable_getStaticPaths = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getStaticPaths\");\nconst unstable_getStaticParams = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getStaticParams\");\nconst unstable_getServerProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getServerProps\");\nconst unstable_getServerSideProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_index_js__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getServerSideProps\");\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0__.PagesRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.PAGES,\n        page: \"/index\",\n        pathname: \"/\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\"\n    },\n    components: {\n        App: private_next_pages_app__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n        Document: private_next_pages_document__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n    },\n    userland: _pages_index_js__WEBPACK_IMPORTED_MODULE_5__\n});\n\n//# sourceMappingURL=pages.js.map\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LXJvdXRlLWxvYWRlci9pbmRleC5qcz9raW5kPVBBR0VTJnBhZ2U9JTJGJnByZWZlcnJlZFJlZ2lvbj0mYWJzb2x1dGVQYWdlUGF0aD0uJTJGcGFnZXMlNUNpbmRleC5qcyZhYnNvbHV0ZUFwcFBhdGg9cHJpdmF0ZS1uZXh0LXBhZ2VzJTJGX2FwcCZhYnNvbHV0ZURvY3VtZW50UGF0aD1wcml2YXRlLW5leHQtcGFnZXMlMkZfZG9jdW1lbnQmbWlkZGxld2FyZUNvbmZpZ0Jhc2U2ND1lMzAlM0QhIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBK0Y7QUFDaEM7QUFDTDtBQUMxRDtBQUNvRDtBQUNWO0FBQzFDO0FBQzhDO0FBQzlDO0FBQ0EsaUVBQWUsd0VBQUssQ0FBQyw0Q0FBUSxZQUFZLEVBQUM7QUFDMUM7QUFDTyx1QkFBdUIsd0VBQUssQ0FBQyw0Q0FBUTtBQUNyQyx1QkFBdUIsd0VBQUssQ0FBQyw0Q0FBUTtBQUNyQywyQkFBMkIsd0VBQUssQ0FBQyw0Q0FBUTtBQUN6QyxlQUFlLHdFQUFLLENBQUMsNENBQVE7QUFDN0Isd0JBQXdCLHdFQUFLLENBQUMsNENBQVE7QUFDN0M7QUFDTyxnQ0FBZ0Msd0VBQUssQ0FBQyw0Q0FBUTtBQUM5QyxnQ0FBZ0Msd0VBQUssQ0FBQyw0Q0FBUTtBQUM5QyxpQ0FBaUMsd0VBQUssQ0FBQyw0Q0FBUTtBQUMvQyxnQ0FBZ0Msd0VBQUssQ0FBQyw0Q0FBUTtBQUM5QyxvQ0FBb0Msd0VBQUssQ0FBQyw0Q0FBUTtBQUN6RDtBQUNPLHdCQUF3Qix5R0FBZ0I7QUFDL0M7QUFDQSxjQUFjLHlFQUFTO0FBQ3ZCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxLQUFLO0FBQ0w7QUFDQSxXQUFXO0FBQ1gsZ0JBQWdCO0FBQ2hCLEtBQUs7QUFDTCxZQUFZO0FBQ1osQ0FBQzs7QUFFRCxpQyIsInNvdXJjZXMiOlsid2VicGFjazovL21lZHNlY3VyZWFpLXByby8/MmNlNiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQYWdlc1JvdXRlTW9kdWxlIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvZnV0dXJlL3JvdXRlLW1vZHVsZXMvcGFnZXMvbW9kdWxlLmNvbXBpbGVkXCI7XG5pbXBvcnQgeyBSb3V0ZUtpbmQgfSBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9mdXR1cmUvcm91dGUta2luZFwiO1xuaW1wb3J0IHsgaG9pc3QgfSBmcm9tIFwibmV4dC9kaXN0L2J1aWxkL3RlbXBsYXRlcy9oZWxwZXJzXCI7XG4vLyBJbXBvcnQgdGhlIGFwcCBhbmQgZG9jdW1lbnQgbW9kdWxlcy5cbmltcG9ydCBEb2N1bWVudCBmcm9tIFwicHJpdmF0ZS1uZXh0LXBhZ2VzL19kb2N1bWVudFwiO1xuaW1wb3J0IEFwcCBmcm9tIFwicHJpdmF0ZS1uZXh0LXBhZ2VzL19hcHBcIjtcbi8vIEltcG9ydCB0aGUgdXNlcmxhbmQgY29kZS5cbmltcG9ydCAqIGFzIHVzZXJsYW5kIGZyb20gXCIuL3BhZ2VzXFxcXGluZGV4LmpzXCI7XG4vLyBSZS1leHBvcnQgdGhlIGNvbXBvbmVudCAoc2hvdWxkIGJlIHRoZSBkZWZhdWx0IGV4cG9ydCkuXG5leHBvcnQgZGVmYXVsdCBob2lzdCh1c2VybGFuZCwgXCJkZWZhdWx0XCIpO1xuLy8gUmUtZXhwb3J0IG1ldGhvZHMuXG5leHBvcnQgY29uc3QgZ2V0U3RhdGljUHJvcHMgPSBob2lzdCh1c2VybGFuZCwgXCJnZXRTdGF0aWNQcm9wc1wiKTtcbmV4cG9ydCBjb25zdCBnZXRTdGF0aWNQYXRocyA9IGhvaXN0KHVzZXJsYW5kLCBcImdldFN0YXRpY1BhdGhzXCIpO1xuZXhwb3J0IGNvbnN0IGdldFNlcnZlclNpZGVQcm9wcyA9IGhvaXN0KHVzZXJsYW5kLCBcImdldFNlcnZlclNpZGVQcm9wc1wiKTtcbmV4cG9ydCBjb25zdCBjb25maWcgPSBob2lzdCh1c2VybGFuZCwgXCJjb25maWdcIik7XG5leHBvcnQgY29uc3QgcmVwb3J0V2ViVml0YWxzID0gaG9pc3QodXNlcmxhbmQsIFwicmVwb3J0V2ViVml0YWxzXCIpO1xuLy8gUmUtZXhwb3J0IGxlZ2FjeSBtZXRob2RzLlxuZXhwb3J0IGNvbnN0IHVuc3RhYmxlX2dldFN0YXRpY1Byb3BzID0gaG9pc3QodXNlcmxhbmQsIFwidW5zdGFibGVfZ2V0U3RhdGljUHJvcHNcIik7XG5leHBvcnQgY29uc3QgdW5zdGFibGVfZ2V0U3RhdGljUGF0aHMgPSBob2lzdCh1c2VybGFuZCwgXCJ1bnN0YWJsZV9nZXRTdGF0aWNQYXRoc1wiKTtcbmV4cG9ydCBjb25zdCB1bnN0YWJsZV9nZXRTdGF0aWNQYXJhbXMgPSBob2lzdCh1c2VybGFuZCwgXCJ1bnN0YWJsZV9nZXRTdGF0aWNQYXJhbXNcIik7XG5leHBvcnQgY29uc3QgdW5zdGFibGVfZ2V0U2VydmVyUHJvcHMgPSBob2lzdCh1c2VybGFuZCwgXCJ1bnN0YWJsZV9nZXRTZXJ2ZXJQcm9wc1wiKTtcbmV4cG9ydCBjb25zdCB1bnN0YWJsZV9nZXRTZXJ2ZXJTaWRlUHJvcHMgPSBob2lzdCh1c2VybGFuZCwgXCJ1bnN0YWJsZV9nZXRTZXJ2ZXJTaWRlUHJvcHNcIik7XG4vLyBDcmVhdGUgYW5kIGV4cG9ydCB0aGUgcm91dGUgbW9kdWxlIHRoYXQgd2lsbCBiZSBjb25zdW1lZC5cbmV4cG9ydCBjb25zdCByb3V0ZU1vZHVsZSA9IG5ldyBQYWdlc1JvdXRlTW9kdWxlKHtcbiAgICBkZWZpbml0aW9uOiB7XG4gICAgICAgIGtpbmQ6IFJvdXRlS2luZC5QQUdFUyxcbiAgICAgICAgcGFnZTogXCIvaW5kZXhcIixcbiAgICAgICAgcGF0aG5hbWU6IFwiL1wiLFxuICAgICAgICAvLyBUaGUgZm9sbG93aW5nIGFyZW4ndCB1c2VkIGluIHByb2R1Y3Rpb24uXG4gICAgICAgIGJ1bmRsZVBhdGg6IFwiXCIsXG4gICAgICAgIGZpbGVuYW1lOiBcIlwiXG4gICAgfSxcbiAgICBjb21wb25lbnRzOiB7XG4gICAgICAgIEFwcCxcbiAgICAgICAgRG9jdW1lbnRcbiAgICB9LFxuICAgIHVzZXJsYW5kXG59KTtcblxuLy8jIHNvdXJjZU1hcHBpbmdVUkw9cGFnZXMuanMubWFwIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2F&preferredRegion=&absolutePagePath=.%2Fpages%5Cindex.js&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D!\n");
+
+/***/ }),
+
+/***/ "./components/Navbar.jsx":
+/*!*******************************!*\
+  !*** ./components/Navbar.jsx ***!
+  \*******************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Navbar)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _barrel_optimize_names_Bell_Moon_Sun_lucide_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! __barrel_optimize__?names=Bell,Moon,Sun!=!lucide-react */ \"__barrel_optimize__?names=Bell,Moon,Sun!=!./node_modules/lucide-react/dist/esm/lucide-react.js\");\n/* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-themes */ \"next-themes\");\n/* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_themes__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ \"./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _toastContext__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./toastContext */ \"./components/toastContext.jsx\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_toastContext__WEBPACK_IMPORTED_MODULE_5__]);\n_toastContext__WEBPACK_IMPORTED_MODULE_5__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\n\n\n\nfunction Navbar() {\n    const { theme, setTheme, resolvedTheme } = (0,next_themes__WEBPACK_IMPORTED_MODULE_2__.useTheme)();\n    const [mounted, setMounted] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);\n    const { muted, toggleMute } = (0,_toastContext__WEBPACK_IMPORTED_MODULE_5__.useToast)();\n    (0,react__WEBPACK_IMPORTED_MODULE_3__.useEffect)(()=>setMounted(true), []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n        className: \"w-full bg-white dark:bg-slate-800 dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 fixed z-40\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"max-w-7xl mx-auto px-4 py-3 flex items-center justify-between\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"flex items-center gap-3\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_4___default()), {\n                            href: \"/dashboard\",\n                            className: \"flex items-center gap-2 hover:scale-105 transition\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                src: \"/images/logo.svg\",\n                                alt: \"logo\",\n                                width: 140,\n                                height: 35,\n                                priority: true\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n                                lineNumber: 18,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n                            lineNumber: 17,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"hidden md:block text-gray-600 dark:text-gray-300\",\n                            children: \"MedSecureAI Portal\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n                            lineNumber: 20,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n                    lineNumber: 16,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"flex items-center gap-3\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            className: \"p-2 rounded-md nav-link\",\n                            onClick: ()=>toggleMute(),\n                            title: \"Toggle sound\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Bell_Moon_Sun_lucide_react__WEBPACK_IMPORTED_MODULE_6__.Bell, {\n                                size: 18,\n                                className: \"text-gray-700 dark:text-gray-200\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n                                lineNumber: 24,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n                            lineNumber: 23,\n                            columnNumber: 11\n                        }, this),\n                        mounted && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            className: \"p-2 rounded-md nav-link\",\n                            onClick: ()=>setTheme(resolvedTheme === \"dark\" ? \"light\" : \"dark\"),\n                            children: resolvedTheme === \"dark\" ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Bell_Moon_Sun_lucide_react__WEBPACK_IMPORTED_MODULE_6__.Sun, {\n                                size: 18\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n                                lineNumber: 28,\n                                columnNumber: 40\n                            }, this) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Bell_Moon_Sun_lucide_react__WEBPACK_IMPORTED_MODULE_6__.Moon, {\n                                size: 18\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n                                lineNumber: 28,\n                                columnNumber: 60\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n                            lineNumber: 27,\n                            columnNumber: 13\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n                    lineNumber: 22,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n            lineNumber: 15,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Navbar.jsx\",\n        lineNumber: 14,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL05hdmJhci5qc3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBOEI7QUFDZ0I7QUFDUjtBQUNLO0FBQ2Y7QUFDYTtBQUUxQixTQUFTUztJQUN0QixNQUFNLEVBQUVDLEtBQUssRUFBRUMsUUFBUSxFQUFFQyxhQUFhLEVBQUUsR0FBR1IscURBQVFBO0lBQ25ELE1BQU0sQ0FBQ1MsU0FBU0MsV0FBVyxHQUFHVCwrQ0FBUUEsQ0FBQztJQUN2QyxNQUFNLEVBQUVVLEtBQUssRUFBRUMsVUFBVSxFQUFFLEdBQUdSLHVEQUFRQTtJQUN0Q0YsZ0RBQVNBLENBQUMsSUFBS1EsV0FBVyxPQUFPLEVBQUU7SUFDbkMscUJBQ0UsOERBQUNHO1FBQU9DLFdBQVU7a0JBQ2hCLDRFQUFDQztZQUFJRCxXQUFVOzs4QkFDYiw4REFBQ0M7b0JBQUlELFdBQVU7O3NDQUNiLDhEQUFDWCxrREFBSUE7NEJBQUNhLE1BQUs7NEJBQWFGLFdBQVU7c0NBQ2hDLDRFQUFDbEIsbURBQUtBO2dDQUFDcUIsS0FBSTtnQ0FBbUJDLEtBQUk7Z0NBQU9DLE9BQU87Z0NBQUtDLFFBQVE7Z0NBQUlDLFFBQVE7Ozs7Ozs7Ozs7O3NDQUUzRSw4REFBQ047NEJBQUlELFdBQVU7c0NBQW1EOzs7Ozs7Ozs7Ozs7OEJBRXBFLDhEQUFDQztvQkFBSUQsV0FBVTs7c0NBQ2IsOERBQUNROzRCQUFPUixXQUFVOzRCQUEwQlMsU0FBUyxJQUFLWDs0QkFBY1ksT0FBTTtzQ0FDNUUsNEVBQUN6QixtRkFBSUE7Z0NBQUMwQixNQUFNO2dDQUFJWCxXQUFVOzs7Ozs7Ozs7Ozt3QkFFM0JMLHlCQUNDLDhEQUFDYTs0QkFBT1IsV0FBVTs0QkFBMEJTLFNBQVMsSUFBS2hCLFNBQVNDLGtCQUFnQixTQUFPLFVBQVE7c0NBQy9GQSxrQkFBZ0IsdUJBQVEsOERBQUNYLGtGQUFHQTtnQ0FBQzRCLE1BQU07Ozs7O3FEQUFTLDhEQUFDM0IsbUZBQUlBO2dDQUFDMkIsTUFBTTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQU92RSIsInNvdXJjZXMiOlsid2VicGFjazovL21lZHNlY3VyZWFpLXByby8uL2NvbXBvbmVudHMvTmF2YmFyLmpzeD8zYWFjIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBJbWFnZSBmcm9tICduZXh0L2ltYWdlJ1xyXG5pbXBvcnQgeyBTdW4sIE1vb24sIEJlbGwgfSBmcm9tICdsdWNpZGUtcmVhY3QnXHJcbmltcG9ydCB7IHVzZVRoZW1lIH0gZnJvbSAnbmV4dC10aGVtZXMnXHJcbmltcG9ydCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCdcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xyXG5pbXBvcnQgeyB1c2VUb2FzdCB9IGZyb20gJy4vdG9hc3RDb250ZXh0J1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTmF2YmFyKCl7IFxyXG4gIGNvbnN0IHsgdGhlbWUsIHNldFRoZW1lLCByZXNvbHZlZFRoZW1lIH0gPSB1c2VUaGVtZSgpXHJcbiAgY29uc3QgW21vdW50ZWQsIHNldE1vdW50ZWRdID0gdXNlU3RhdGUoZmFsc2UpXHJcbiAgY29uc3QgeyBtdXRlZCwgdG9nZ2xlTXV0ZSB9ID0gdXNlVG9hc3QoKVxyXG4gIHVzZUVmZmVjdCgoKT0+IHNldE1vdW50ZWQodHJ1ZSksIFtdKVxyXG4gIHJldHVybiAoXHJcbiAgICA8aGVhZGVyIGNsYXNzTmFtZT1cInctZnVsbCBiZy13aGl0ZSBkYXJrOmJnLXNsYXRlLTgwMCBkYXJrOmJnLWdyYXktOTAwIGJvcmRlci1iIGJvcmRlci1ncmF5LTIwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCBmaXhlZCB6LTQwXCI+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWF4LXctN3hsIG14LWF1dG8gcHgtNCBweS0zIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlblwiPlxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTNcIj5cclxuICAgICAgICAgIDxMaW5rIGhyZWY9XCIvZGFzaGJvYXJkXCIgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgaG92ZXI6c2NhbGUtMTA1IHRyYW5zaXRpb25cIj5cclxuICAgICAgICAgICAgPEltYWdlIHNyYz1cIi9pbWFnZXMvbG9nby5zdmdcIiBhbHQ9XCJsb2dvXCIgd2lkdGg9ezE0MH0gaGVpZ2h0PXszNX0gcHJpb3JpdHkvPlxyXG4gICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoaWRkZW4gbWQ6YmxvY2sgdGV4dC1ncmF5LTYwMCBkYXJrOnRleHQtZ3JheS0zMDBcIj5NZWRTZWN1cmVBSSBQb3J0YWw8L2Rpdj5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0zXCI+XHJcbiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cInAtMiByb3VuZGVkLW1kIG5hdi1saW5rXCIgb25DbGljaz17KCk9PiB0b2dnbGVNdXRlKCl9IHRpdGxlPVwiVG9nZ2xlIHNvdW5kXCI+XHJcbiAgICAgICAgICAgIDxCZWxsIHNpemU9ezE4fSBjbGFzc05hbWU9XCJ0ZXh0LWdyYXktNzAwIGRhcms6dGV4dC1ncmF5LTIwMFwiLz5cclxuICAgICAgICAgIDwvYnV0dG9uPlxyXG4gICAgICAgICAge21vdW50ZWQgJiYgKFxyXG4gICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cInAtMiByb3VuZGVkLW1kIG5hdi1saW5rXCIgb25DbGljaz17KCk9PiBzZXRUaGVtZShyZXNvbHZlZFRoZW1lPT09J2RhcmsnPydsaWdodCc6J2RhcmsnKX0+XHJcbiAgICAgICAgICAgICAge3Jlc29sdmVkVGhlbWU9PT0nZGFyayc/IDxTdW4gc2l6ZT17MTh9IC8+IDogPE1vb24gc2l6ZT17MTh9IC8+fVxyXG4gICAgICAgICAgICA8L2J1dHRvbj5cclxuICAgICAgICAgICl9XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgPC9oZWFkZXI+XHJcbiAgKVxyXG59XHJcbiJdLCJuYW1lcyI6WyJJbWFnZSIsIlN1biIsIk1vb24iLCJCZWxsIiwidXNlVGhlbWUiLCJ1c2VTdGF0ZSIsInVzZUVmZmVjdCIsIkxpbmsiLCJ1c2VUb2FzdCIsIk5hdmJhciIsInRoZW1lIiwic2V0VGhlbWUiLCJyZXNvbHZlZFRoZW1lIiwibW91bnRlZCIsInNldE1vdW50ZWQiLCJtdXRlZCIsInRvZ2dsZU11dGUiLCJoZWFkZXIiLCJjbGFzc05hbWUiLCJkaXYiLCJocmVmIiwic3JjIiwiYWx0Iiwid2lkdGgiLCJoZWlnaHQiLCJwcmlvcml0eSIsImJ1dHRvbiIsIm9uQ2xpY2siLCJ0aXRsZSIsInNpemUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/Navbar.jsx\n");
+
+/***/ }),
+
+/***/ "./components/Sidebar.jsx":
+/*!********************************!*\
+  !*** ./components/Sidebar.jsx ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Sidebar)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ \"./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _barrel_optimize_names_Database_Home_LogOut_PackageSearch_User_lucide_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! __barrel_optimize__?names=Database,Home,LogOut,PackageSearch,User!=!lucide-react */ \"__barrel_optimize__?names=Database,Home,LogOut,PackageSearch,User!=!./node_modules/lucide-react/dist/esm/lucide-react.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"./node_modules/next/router.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nfunction Sidebar() {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    const items = [\n        {\n            href: \"/profile\",\n            label: \"Profile\",\n            icon: _barrel_optimize_names_Database_Home_LogOut_PackageSearch_User_lucide_react__WEBPACK_IMPORTED_MODULE_3__.User\n        },\n        {\n            href: \"/dashboard\",\n            label: \"Dashboard\",\n            icon: _barrel_optimize_names_Database_Home_LogOut_PackageSearch_User_lucide_react__WEBPACK_IMPORTED_MODULE_3__.Home\n        },\n        {\n            href: \"/orders\",\n            label: \"Orders\",\n            icon: _barrel_optimize_names_Database_Home_LogOut_PackageSearch_User_lucide_react__WEBPACK_IMPORTED_MODULE_3__.PackageSearch\n        },\n        {\n            href: \"/meddata\",\n            label: \"Med Data\",\n            icon: _barrel_optimize_names_Database_Home_LogOut_PackageSearch_User_lucide_react__WEBPACK_IMPORTED_MODULE_3__.Database\n        },\n        {\n            href: \"/logout\",\n            label: \"Logout\",\n            icon: _barrel_optimize_names_Database_Home_LogOut_PackageSearch_User_lucide_react__WEBPACK_IMPORTED_MODULE_3__.LogOut\n        }\n    ];\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"aside\", {\n        className: \"w-64 hidden md:block fixed top-16 left-4 bottom-6\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n            className: \"flex flex-col gap-2\",\n            children: items.map((it)=>{\n                const Active = it.icon;\n                const active = router.pathname === it.href;\n                return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {\n                    href: it.href,\n                    className: `flex items-center gap-3 p-3 rounded-lg ${active ? \"bg-green-50 dark:bg-gray-800 font-semibold text-green-600 dark:text-green-300\" : \"text-gray-600 dark:text-gray-300 hover:bg-green-600 hover:text-white dark:hover:bg-green-600 hover:text-white hover:text-white dark:bg-slate-800/5\"}`,\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Active, {\n                            size: 18\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Sidebar.jsx\",\n                            lineNumber: 21,\n                            columnNumber: 344\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                            children: it.label\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Sidebar.jsx\",\n                            lineNumber: 22,\n                            columnNumber: 17\n                        }, this)\n                    ]\n                }, it.href, true, {\n                    fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Sidebar.jsx\",\n                    lineNumber: 21,\n                    columnNumber: 13\n                }, this);\n            })\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Sidebar.jsx\",\n            lineNumber: 16,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\Sidebar.jsx\",\n        lineNumber: 15,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1NpZGViYXIuanN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUE0QjtBQUM4QztBQUNuQztBQUV4QixTQUFTTztJQUN0QixNQUFNQyxTQUFTRixzREFBU0E7SUFDeEIsTUFBTUcsUUFBUTtRQUNaO1lBQUNDLE1BQUs7WUFBWUMsT0FBTTtZQUFXQyxNQUFNViw2R0FBSUE7UUFBQTtRQUM3QztZQUFDUSxNQUFLO1lBQWNDLE9BQU07WUFBYUMsTUFBTVgsNkdBQUlBO1FBQUE7UUFDakQ7WUFBQ1MsTUFBSztZQUFXQyxPQUFNO1lBQVVDLE1BQU1ULHNIQUFhQTtRQUFBO1FBQ3BEO1lBQUNPLE1BQUs7WUFBWUMsT0FBTTtZQUFZQyxNQUFNUixpSEFBUUE7UUFBQTtRQUNsRDtZQUFDTSxNQUFLO1lBQVdDLE9BQU07WUFBVUMsTUFBTVAsK0dBQU1BO1FBQUE7S0FDOUM7SUFDRCxxQkFDRSw4REFBQ1E7UUFBTUMsV0FBVTtrQkFDZiw0RUFBQ0M7WUFBSUQsV0FBVTtzQkFDWkwsTUFBTU8sR0FBRyxDQUFDQyxDQUFBQTtnQkFDVCxNQUFNQyxTQUFTRCxHQUFHTCxJQUFJO2dCQUN0QixNQUFNTyxTQUFTWCxPQUFPWSxRQUFRLEtBQUtILEdBQUdQLElBQUk7Z0JBQzFDLHFCQUNFLDhEQUFDVixrREFBSUE7b0JBQWVVLE1BQU1PLEdBQUdQLElBQUk7b0JBQUVJLFdBQVcsQ0FBQyx1Q0FBdUMsRUFBRUssU0FBUyxrRkFBa0YscUpBQXFKLENBQUM7O3NDQUFFLDhEQUFDRDs0QkFBT0csTUFBTTs7Ozs7O3NDQUNyViw4REFBQ0M7c0NBQU1MLEdBQUdOLEtBQUs7Ozs7Ozs7bUJBRFJNLEdBQUdQLElBQUk7Ozs7O1lBR3RCOzs7Ozs7Ozs7OztBQUlSIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkc2VjdXJlYWktcHJvLy4vY29tcG9uZW50cy9TaWRlYmFyLmpzeD80Y2I0Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcclxuaW1wb3J0IHsgSG9tZSwgVXNlciwgUGFja2FnZVNlYXJjaCwgRGF0YWJhc2UsIExvZ091dCB9IGZyb20gJ2x1Y2lkZS1yZWFjdCdcclxuaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAnbmV4dC9yb3V0ZXInXHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTaWRlYmFyKCl7XHJcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKClcclxuICBjb25zdCBpdGVtcyA9IFtcclxuICAgIHtocmVmOicvcHJvZmlsZScsIGxhYmVsOidQcm9maWxlJywgaWNvbjogVXNlcn0sXHJcbiAgICB7aHJlZjonL2Rhc2hib2FyZCcsIGxhYmVsOidEYXNoYm9hcmQnLCBpY29uOiBIb21lfSxcclxuICAgIHtocmVmOicvb3JkZXJzJywgbGFiZWw6J09yZGVycycsIGljb246IFBhY2thZ2VTZWFyY2h9LFxyXG4gICAge2hyZWY6Jy9tZWRkYXRhJywgbGFiZWw6J01lZCBEYXRhJywgaWNvbjogRGF0YWJhc2V9LFxyXG4gICAge2hyZWY6Jy9sb2dvdXQnLCBsYWJlbDonTG9nb3V0JywgaWNvbjogTG9nT3V0fSxcclxuICBdXHJcbiAgcmV0dXJuIChcclxuICAgIDxhc2lkZSBjbGFzc05hbWU9XCJ3LTY0IGhpZGRlbiBtZDpibG9jayBmaXhlZCB0b3AtMTYgbGVmdC00IGJvdHRvbS02XCI+XHJcbiAgICAgIDxuYXYgY2xhc3NOYW1lPVwiZmxleCBmbGV4LWNvbCBnYXAtMlwiPlxyXG4gICAgICAgIHtpdGVtcy5tYXAoaXQ9PntcclxuICAgICAgICAgIGNvbnN0IEFjdGl2ZSA9IGl0Lmljb25cclxuICAgICAgICAgIGNvbnN0IGFjdGl2ZSA9IHJvdXRlci5wYXRobmFtZSA9PT0gaXQuaHJlZlxyXG4gICAgICAgICAgcmV0dXJuIChcclxuICAgICAgICAgICAgPExpbmsga2V5PXtpdC5ocmVmfSBocmVmPXtpdC5ocmVmfSBjbGFzc05hbWU9e2BmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyBwLTMgcm91bmRlZC1sZyAke2FjdGl2ZSA/ICdiZy1ncmVlbi01MCBkYXJrOmJnLWdyYXktODAwIGZvbnQtc2VtaWJvbGQgdGV4dC1ncmVlbi02MDAgZGFyazp0ZXh0LWdyZWVuLTMwMCcgOiAndGV4dC1ncmF5LTYwMCBkYXJrOnRleHQtZ3JheS0zMDAgaG92ZXI6YmctZ3JlZW4tNjAwIGhvdmVyOnRleHQtd2hpdGUgZGFyazpob3ZlcjpiZy1ncmVlbi02MDAgaG92ZXI6dGV4dC13aGl0ZSBob3Zlcjp0ZXh0LXdoaXRlIGRhcms6Ymctc2xhdGUtODAwLzUnfWB9PjxBY3RpdmUgc2l6ZT17MTh9IC8+XHJcbiAgICAgICAgICAgICAgICA8c3Bhbj57aXQubGFiZWx9PC9zcGFuPjwvTGluaz5cclxuICAgICAgICAgIClcclxuICAgICAgICB9KX1cclxuICAgICAgPC9uYXY+XHJcbiAgICA8L2FzaWRlPlxyXG4gIClcclxufVxyXG4iXSwibmFtZXMiOlsiTGluayIsIkhvbWUiLCJVc2VyIiwiUGFja2FnZVNlYXJjaCIsIkRhdGFiYXNlIiwiTG9nT3V0IiwidXNlUm91dGVyIiwiU2lkZWJhciIsInJvdXRlciIsIml0ZW1zIiwiaHJlZiIsImxhYmVsIiwiaWNvbiIsImFzaWRlIiwiY2xhc3NOYW1lIiwibmF2IiwibWFwIiwiaXQiLCJBY3RpdmUiLCJhY3RpdmUiLCJwYXRobmFtZSIsInNpemUiLCJzcGFuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/Sidebar.jsx\n");
+
+/***/ }),
+
+/***/ "./components/toastContext.jsx":
+/*!*************************************!*\
+  !*** ./components/toastContext.jsx ***!
+  \*************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   ToastProvider: () => (/* binding */ ToastProvider),\n/* harmony export */   useToast: () => (/* binding */ useToast)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n/* __next_internal_client_entry_do_not_use__ ToastProvider,useToast auto */ \n\n\nconst ToastContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)();\nfunction ToastProvider({ children }) {\n    const [toasts, setToasts] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);\n    const [muted, setMuted] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(true) // default muted\n    ;\n    const idRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(1);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        // expose for debugging\n        window._pushToast = (t)=>pushToast(t);\n    }, []);\n    function pushToast({ title, body }) {\n        const id = idRef.current++;\n        setToasts((prev)=>[\n                ...prev,\n                {\n                    id,\n                    title,\n                    body\n                }\n            ]);\n        // audio ping if not muted\n        if (!muted) {\n            try {\n                const ctx = new (window.AudioContext || window.webkitAudioContext)();\n                const o = ctx.createOscillator();\n                const g = ctx.createGain();\n                o.type = \"sine\";\n                o.frequency.value = 880;\n                g.gain.value = 0.02;\n                o.connect(g);\n                g.connect(ctx.destination);\n                o.start();\n                g.gain.exponentialRampToValueAtTime(0.00001, ctx.currentTime + 0.15);\n                o.stop(ctx.currentTime + 0.16);\n            } catch (e) {}\n        }\n        // auto remove after 5s\n        setTimeout(()=>setToasts((prev)=>prev.filter((t)=>t.id !== id)), 5000);\n    }\n    function removeToast(id) {\n        setToasts((prev)=>prev.filter((t)=>t.id !== id));\n    }\n    function toggleMute() {\n        setMuted((m)=>!m);\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(ToastContext.Provider, {\n        value: {\n            toasts,\n            pushToast,\n            removeToast,\n            muted,\n            toggleMute\n        },\n        children: [\n            children,\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"fixed right-6 bottom-6 z-50 flex flex-col-reverse gap-3 items-end\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.AnimatePresence, {\n                    children: toasts.map((t)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {\n                            initial: {\n                                opacity: 0,\n                                x: 30\n                            },\n                            animate: {\n                                opacity: 1,\n                                x: 0\n                            },\n                            exit: {\n                                opacity: 0,\n                                x: 30\n                            },\n                            transition: {\n                                duration: 0.25\n                            },\n                            className: \"max-w-xs w-full\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"card flex items-start gap-3\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"flex-1\",\n                                    children: [\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                            className: \"flex justify-between items-start\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                                                    children: t.title\n                                                }, void 0, false, {\n                                                    fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\toastContext.jsx\",\n                                                    lineNumber: 49,\n                                                    columnNumber: 21\n                                                }, this),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                                    onClick: ()=>removeToast(t.id),\n                                                    className: \"text-gray-400\",\n                                                    children: \"✕\"\n                                                }, void 0, false, {\n                                                    fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\toastContext.jsx\",\n                                                    lineNumber: 50,\n                                                    columnNumber: 21\n                                                }, this)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\toastContext.jsx\",\n                                            lineNumber: 48,\n                                            columnNumber: 19\n                                        }, this),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                            className: \"text-sm text-gray-600 dark:text-gray-300 mt-1\",\n                                            children: t.body\n                                        }, void 0, false, {\n                                            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\toastContext.jsx\",\n                                            lineNumber: 52,\n                                            columnNumber: 19\n                                        }, this)\n                                    ]\n                                }, void 0, true, {\n                                    fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\toastContext.jsx\",\n                                    lineNumber: 47,\n                                    columnNumber: 17\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\toastContext.jsx\",\n                                lineNumber: 46,\n                                columnNumber: 15\n                            }, this)\n                        }, t.id, false, {\n                            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\toastContext.jsx\",\n                            lineNumber: 45,\n                            columnNumber: 13\n                        }, this))\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\toastContext.jsx\",\n                    lineNumber: 43,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\toastContext.jsx\",\n                lineNumber: 42,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\components\\\\toastContext.jsx\",\n        lineNumber: 40,\n        columnNumber: 5\n    }, this);\n}\nfunction useToast() {\n    return (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(ToastContext);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL3RvYXN0Q29udGV4dC5qc3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFDOEU7QUFDdkI7QUFFdkQsTUFBTU8sNkJBQWVQLG9EQUFhQTtBQUUzQixTQUFTUSxjQUFjLEVBQUVDLFFBQVEsRUFBRTtJQUN4QyxNQUFNLENBQUNDLFFBQVFDLFVBQVUsR0FBR1QsK0NBQVFBLENBQUMsRUFBRTtJQUN2QyxNQUFNLENBQUNVLE9BQU9DLFNBQVMsR0FBR1gsK0NBQVFBLENBQUMsTUFBTSxnQkFBZ0I7O0lBQ3pELE1BQU1ZLFFBQVFWLDZDQUFNQSxDQUFDO0lBRXJCRCxnREFBU0EsQ0FBQztRQUNSLHVCQUF1QjtRQUN2QlksT0FBT0MsVUFBVSxHQUFHLENBQUNDLElBQUtDLFVBQVVEO0lBQ3RDLEdBQUcsRUFBRTtJQUVMLFNBQVNDLFVBQVUsRUFBQ0MsS0FBSyxFQUFFQyxJQUFJLEVBQUM7UUFDOUIsTUFBTUMsS0FBS1AsTUFBTVEsT0FBTztRQUN4QlgsVUFBVVksQ0FBQUEsT0FBTzttQkFBSUE7Z0JBQU07b0JBQUNGO29CQUFJRjtvQkFBT0M7Z0JBQUk7YUFBRTtRQUM3QywwQkFBMEI7UUFDMUIsSUFBRyxDQUFDUixPQUFNO1lBQ1IsSUFBRztnQkFDRCxNQUFNWSxNQUFNLElBQUtULENBQUFBLE9BQU9VLFlBQVksSUFBSVYsT0FBT1csa0JBQWtCO2dCQUNqRSxNQUFNQyxJQUFJSCxJQUFJSSxnQkFBZ0I7Z0JBQUksTUFBTUMsSUFBSUwsSUFBSU0sVUFBVTtnQkFDMURILEVBQUVJLElBQUksR0FBQztnQkFBUUosRUFBRUssU0FBUyxDQUFDQyxLQUFLLEdBQUM7Z0JBQUtKLEVBQUVLLElBQUksQ0FBQ0QsS0FBSyxHQUFDO2dCQUFNTixFQUFFUSxPQUFPLENBQUNOO2dCQUFJQSxFQUFFTSxPQUFPLENBQUNYLElBQUlZLFdBQVc7Z0JBQ2hHVCxFQUFFVSxLQUFLO2dCQUFJUixFQUFFSyxJQUFJLENBQUNJLDRCQUE0QixDQUFDLFNBQVNkLElBQUllLFdBQVcsR0FBQztnQkFBT1osRUFBRWEsSUFBSSxDQUFDaEIsSUFBSWUsV0FBVyxHQUFDO1lBQ3hHLEVBQUMsT0FBTUUsR0FBRSxDQUFDO1FBQ1o7UUFDQSx1QkFBdUI7UUFDdkJDLFdBQVcsSUFBSy9CLFVBQVVZLENBQUFBLE9BQU9BLEtBQUtvQixNQUFNLENBQUMxQixDQUFBQSxJQUFJQSxFQUFFSSxFQUFFLEtBQUdBLE1BQU07SUFDaEU7SUFFQSxTQUFTdUIsWUFBWXZCLEVBQUU7UUFDckJWLFVBQVVZLENBQUFBLE9BQU9BLEtBQUtvQixNQUFNLENBQUMxQixDQUFBQSxJQUFJQSxFQUFFSSxFQUFFLEtBQUdBO0lBQzFDO0lBRUEsU0FBU3dCO1FBQWNoQyxTQUFTaUMsQ0FBQUEsSUFBSSxDQUFDQTtJQUFHO0lBRXhDLHFCQUNFLDhEQUFDdkMsYUFBYXdDLFFBQVE7UUFBQ2QsT0FBTztZQUFDdkI7WUFBUVE7WUFBVzBCO1lBQWFoQztZQUFPaUM7UUFBVTs7WUFDN0VwQzswQkFDRCw4REFBQ3VDO2dCQUFJQyxXQUFVOzBCQUNiLDRFQUFDM0MsMERBQWVBOzhCQUNiSSxPQUFPd0MsR0FBRyxDQUFDakMsQ0FBQUEsa0JBQ1YsOERBQUNaLGlEQUFNQSxDQUFDMkMsR0FBRzs0QkFBWUcsU0FBUztnQ0FBQ0MsU0FBUTtnQ0FBR0MsR0FBRTs0QkFBRTs0QkFBR0MsU0FBUztnQ0FBQ0YsU0FBUTtnQ0FBR0MsR0FBRTs0QkFBQzs0QkFBR0UsTUFBTTtnQ0FBQ0gsU0FBUTtnQ0FBR0MsR0FBRTs0QkFBRTs0QkFBR0csWUFBWTtnQ0FBQ0MsVUFBUzs0QkFBSTs0QkFBR1IsV0FBVTtzQ0FDNUksNEVBQUNEO2dDQUFJQyxXQUFVOzBDQUNiLDRFQUFDRDtvQ0FBSUMsV0FBVTs7c0RBQ2IsOERBQUNEOzRDQUFJQyxXQUFVOzs4REFDYiw4REFBQ1M7OERBQVF6QyxFQUFFRSxLQUFLOzs7Ozs7OERBQ2hCLDhEQUFDd0M7b0RBQU9DLFNBQVMsSUFBS2hCLFlBQVkzQixFQUFFSSxFQUFFO29EQUFHNEIsV0FBVTs4REFBZ0I7Ozs7Ozs7Ozs7OztzREFFckUsOERBQUNEOzRDQUFJQyxXQUFVO3NEQUFpRGhDLEVBQUVHLElBQUk7Ozs7Ozs7Ozs7Ozs7Ozs7OzJCQVAzREgsRUFBRUksRUFBRTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBZ0JqQztBQUVPLFNBQVN3QztJQUFZLE9BQU81RCxpREFBVUEsQ0FBQ007QUFBYyIsInNvdXJjZXMiOlsid2VicGFjazovL21lZHNlY3VyZWFpLXByby8uL2NvbXBvbmVudHMvdG9hc3RDb250ZXh0LmpzeD8wMjJjIl0sInNvdXJjZXNDb250ZW50IjpbIid1c2UgY2xpZW50J1xyXG5pbXBvcnQgeyBjcmVhdGVDb250ZXh0LCB1c2VDb250ZXh0LCB1c2VTdGF0ZSwgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICdyZWFjdCdcclxuaW1wb3J0IHsgbW90aW9uLCBBbmltYXRlUHJlc2VuY2UgfSBmcm9tICdmcmFtZXItbW90aW9uJ1xyXG5cclxuY29uc3QgVG9hc3RDb250ZXh0ID0gY3JlYXRlQ29udGV4dCgpXHJcblxyXG5leHBvcnQgZnVuY3Rpb24gVG9hc3RQcm92aWRlcih7IGNoaWxkcmVuIH0pe1xyXG4gIGNvbnN0IFt0b2FzdHMsIHNldFRvYXN0c10gPSB1c2VTdGF0ZShbXSlcclxuICBjb25zdCBbbXV0ZWQsIHNldE11dGVkXSA9IHVzZVN0YXRlKHRydWUpIC8vIGRlZmF1bHQgbXV0ZWRcclxuICBjb25zdCBpZFJlZiA9IHVzZVJlZigxKVxyXG5cclxuICB1c2VFZmZlY3QoKCk9PntcclxuICAgIC8vIGV4cG9zZSBmb3IgZGVidWdnaW5nXHJcbiAgICB3aW5kb3cuX3B1c2hUb2FzdCA9ICh0KT0+IHB1c2hUb2FzdCh0KVxyXG4gIH0sIFtdKVxyXG5cclxuICBmdW5jdGlvbiBwdXNoVG9hc3Qoe3RpdGxlLCBib2R5fSl7XHJcbiAgICBjb25zdCBpZCA9IGlkUmVmLmN1cnJlbnQrK1xyXG4gICAgc2V0VG9hc3RzKHByZXY9PiBbLi4ucHJldiwge2lkLCB0aXRsZSwgYm9keX1dKVxyXG4gICAgLy8gYXVkaW8gcGluZyBpZiBub3QgbXV0ZWRcclxuICAgIGlmKCFtdXRlZCl7XHJcbiAgICAgIHRyeXtcclxuICAgICAgICBjb25zdCBjdHggPSBuZXcgKHdpbmRvdy5BdWRpb0NvbnRleHQgfHwgd2luZG93LndlYmtpdEF1ZGlvQ29udGV4dCkoKVxyXG4gICAgICAgIGNvbnN0IG8gPSBjdHguY3JlYXRlT3NjaWxsYXRvcigpOyBjb25zdCBnID0gY3R4LmNyZWF0ZUdhaW4oKVxyXG4gICAgICAgIG8udHlwZT0nc2luZSc7IG8uZnJlcXVlbmN5LnZhbHVlPTg4MDsgZy5nYWluLnZhbHVlPTAuMDI7IG8uY29ubmVjdChnKTsgZy5jb25uZWN0KGN0eC5kZXN0aW5hdGlvbilcclxuICAgICAgICBvLnN0YXJ0KCk7IGcuZ2Fpbi5leHBvbmVudGlhbFJhbXBUb1ZhbHVlQXRUaW1lKDAuMDAwMDEsIGN0eC5jdXJyZW50VGltZSswLjE1KTsgby5zdG9wKGN0eC5jdXJyZW50VGltZSswLjE2KVxyXG4gICAgICB9Y2F0Y2goZSl7fVxyXG4gICAgfVxyXG4gICAgLy8gYXV0byByZW1vdmUgYWZ0ZXIgNXNcclxuICAgIHNldFRpbWVvdXQoKCk9PiBzZXRUb2FzdHMocHJldj0+IHByZXYuZmlsdGVyKHQ9PiB0LmlkIT09aWQpKSwgNTAwMClcclxuICB9XHJcblxyXG4gIGZ1bmN0aW9uIHJlbW92ZVRvYXN0KGlkKXtcclxuICAgIHNldFRvYXN0cyhwcmV2PT4gcHJldi5maWx0ZXIodD0+IHQuaWQhPT1pZCkpXHJcbiAgfVxyXG5cclxuICBmdW5jdGlvbiB0b2dnbGVNdXRlKCl7IHNldE11dGVkKG09PiAhbSkgfVxyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPFRvYXN0Q29udGV4dC5Qcm92aWRlciB2YWx1ZT17e3RvYXN0cywgcHVzaFRvYXN0LCByZW1vdmVUb2FzdCwgbXV0ZWQsIHRvZ2dsZU11dGV9fT5cclxuICAgICAge2NoaWxkcmVufVxyXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImZpeGVkIHJpZ2h0LTYgYm90dG9tLTYgei01MCBmbGV4IGZsZXgtY29sLXJldmVyc2UgZ2FwLTMgaXRlbXMtZW5kXCI+XHJcbiAgICAgICAgPEFuaW1hdGVQcmVzZW5jZT5cclxuICAgICAgICAgIHt0b2FzdHMubWFwKHQ9PiAoXHJcbiAgICAgICAgICAgIDxtb3Rpb24uZGl2IGtleT17dC5pZH0gaW5pdGlhbD17e29wYWNpdHk6MCwgeDozMH19IGFuaW1hdGU9e3tvcGFjaXR5OjEsIHg6MH19IGV4aXQ9e3tvcGFjaXR5OjAsIHg6MzB9fSB0cmFuc2l0aW9uPXt7ZHVyYXRpb246MC4yNX19IGNsYXNzTmFtZT1cIm1heC13LXhzIHctZnVsbFwiPlxyXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZCBmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zXCI+XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXgtMVwiPlxyXG4gICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLXN0YXJ0XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPHN0cm9uZz57dC50aXRsZX08L3N0cm9uZz5cclxuICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpPT4gcmVtb3ZlVG9hc3QodC5pZCl9IGNsYXNzTmFtZT1cInRleHQtZ3JheS00MDBcIj7inJU8L2J1dHRvbj5cclxuICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1zbSB0ZXh0LWdyYXktNjAwIGRhcms6dGV4dC1ncmF5LTMwMCBtdC0xXCI+e3QuYm9keX08L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICA8L21vdGlvbi5kaXY+XHJcbiAgICAgICAgICApKX1cclxuICAgICAgICA8L0FuaW1hdGVQcmVzZW5jZT5cclxuICAgICAgPC9kaXY+XHJcbiAgICA8L1RvYXN0Q29udGV4dC5Qcm92aWRlcj5cclxuICApXHJcbn1cclxuXHJcbmV4cG9ydCBmdW5jdGlvbiB1c2VUb2FzdCgpeyByZXR1cm4gdXNlQ29udGV4dChUb2FzdENvbnRleHQpIH1cclxuIl0sIm5hbWVzIjpbImNyZWF0ZUNvbnRleHQiLCJ1c2VDb250ZXh0IiwidXNlU3RhdGUiLCJ1c2VFZmZlY3QiLCJ1c2VSZWYiLCJtb3Rpb24iLCJBbmltYXRlUHJlc2VuY2UiLCJUb2FzdENvbnRleHQiLCJUb2FzdFByb3ZpZGVyIiwiY2hpbGRyZW4iLCJ0b2FzdHMiLCJzZXRUb2FzdHMiLCJtdXRlZCIsInNldE11dGVkIiwiaWRSZWYiLCJ3aW5kb3ciLCJfcHVzaFRvYXN0IiwidCIsInB1c2hUb2FzdCIsInRpdGxlIiwiYm9keSIsImlkIiwiY3VycmVudCIsInByZXYiLCJjdHgiLCJBdWRpb0NvbnRleHQiLCJ3ZWJraXRBdWRpb0NvbnRleHQiLCJvIiwiY3JlYXRlT3NjaWxsYXRvciIsImciLCJjcmVhdGVHYWluIiwidHlwZSIsImZyZXF1ZW5jeSIsInZhbHVlIiwiZ2FpbiIsImNvbm5lY3QiLCJkZXN0aW5hdGlvbiIsInN0YXJ0IiwiZXhwb25lbnRpYWxSYW1wVG9WYWx1ZUF0VGltZSIsImN1cnJlbnRUaW1lIiwic3RvcCIsImUiLCJzZXRUaW1lb3V0IiwiZmlsdGVyIiwicmVtb3ZlVG9hc3QiLCJ0b2dnbGVNdXRlIiwibSIsIlByb3ZpZGVyIiwiZGl2IiwiY2xhc3NOYW1lIiwibWFwIiwiaW5pdGlhbCIsIm9wYWNpdHkiLCJ4IiwiYW5pbWF0ZSIsImV4aXQiLCJ0cmFuc2l0aW9uIiwiZHVyYXRpb24iLCJzdHJvbmciLCJidXR0b24iLCJvbkNsaWNrIiwidXNlVG9hc3QiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/toastContext.jsx\n");
+
+/***/ }),
+
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-themes */ \"next-themes\");\n/* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_themes__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/components/Navbar */ \"./components/Navbar.jsx\");\n/* harmony import */ var _components_Sidebar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/components/Sidebar */ \"./components/Sidebar.jsx\");\n/* harmony import */ var _components_toastContext__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/components/toastContext */ \"./components/toastContext.jsx\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_Navbar__WEBPACK_IMPORTED_MODULE_3__, _components_toastContext__WEBPACK_IMPORTED_MODULE_5__]);\n([_components_Navbar__WEBPACK_IMPORTED_MODULE_3__, _components_toastContext__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\n\nfunction App({ Component, pageProps }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_themes__WEBPACK_IMPORTED_MODULE_2__.ThemeProvider, {\n        attribute: \"class\",\n        defaultTheme: \"dark\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_toastContext__WEBPACK_IMPORTED_MODULE_5__.ToastProvider, {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"min-h-screen\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Navbar__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_app.js\",\n                        lineNumber: 12,\n                        columnNumber: 11\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"pt-16 md:pl-72\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Sidebar__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {}, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_app.js\",\n                                lineNumber: 14,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                                className: \"max-w-7xl mx-auto p-6\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                                    ...pageProps\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_app.js\",\n                                    lineNumber: 16,\n                                    columnNumber: 15\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_app.js\",\n                                lineNumber: 15,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_app.js\",\n                        lineNumber: 13,\n                        columnNumber: 11\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_app.js\",\n                lineNumber: 11,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_app.js\",\n            lineNumber: 10,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_app.js\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQTZCO0FBQ2M7QUFDSDtBQUNFO0FBQ2U7QUFFMUMsU0FBU0ksSUFBSSxFQUFFQyxTQUFTLEVBQUVDLFNBQVMsRUFBRTtJQUNsRCxxQkFDRSw4REFBQ04sc0RBQWFBO1FBQUNPLFdBQVU7UUFBUUMsY0FBYTtrQkFDNUMsNEVBQUNMLG1FQUFhQTtzQkFDWiw0RUFBQ007Z0JBQUlDLFdBQVU7O2tDQUNiLDhEQUFDVCwwREFBTUE7Ozs7O2tDQUNQLDhEQUFDUTt3QkFBSUMsV0FBVTs7MENBQ2IsOERBQUNSLDJEQUFPQTs7Ozs7MENBQ1IsOERBQUNTO2dDQUFLRCxXQUFVOzBDQUNkLDRFQUFDTDtvQ0FBVyxHQUFHQyxTQUFTOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFPdEMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tZWRzZWN1cmVhaS1wcm8vLi9wYWdlcy9fYXBwLmpzP2UwYWQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICdAL3N0eWxlcy9nbG9iYWxzLmNzcydcclxuaW1wb3J0IHsgVGhlbWVQcm92aWRlciB9IGZyb20gJ25leHQtdGhlbWVzJ1xyXG5pbXBvcnQgTmF2YmFyIGZyb20gJ0AvY29tcG9uZW50cy9OYXZiYXInXHJcbmltcG9ydCBTaWRlYmFyIGZyb20gJ0AvY29tcG9uZW50cy9TaWRlYmFyJ1xyXG5pbXBvcnQgeyBUb2FzdFByb3ZpZGVyIH0gZnJvbSAnQC9jb21wb25lbnRzL3RvYXN0Q29udGV4dCdcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pe1xyXG4gIHJldHVybiAoXHJcbiAgICA8VGhlbWVQcm92aWRlciBhdHRyaWJ1dGU9J2NsYXNzJyBkZWZhdWx0VGhlbWU9J2RhcmsnPlxyXG4gICAgICA8VG9hc3RQcm92aWRlcj5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nbWluLWgtc2NyZWVuJz5cclxuICAgICAgICAgIDxOYXZiYXIgLz5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwdC0xNiBtZDpwbC03Mic+XHJcbiAgICAgICAgICAgIDxTaWRlYmFyIC8+XHJcbiAgICAgICAgICAgIDxtYWluIGNsYXNzTmFtZT0nbWF4LXctN3hsIG14LWF1dG8gcC02Jz5cclxuICAgICAgICAgICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XHJcbiAgICAgICAgICAgIDwvbWFpbj5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICA8L1RvYXN0UHJvdmlkZXI+XHJcbiAgICA8L1RoZW1lUHJvdmlkZXI+XHJcbiAgKVxyXG59XHJcbiJdLCJuYW1lcyI6WyJUaGVtZVByb3ZpZGVyIiwiTmF2YmFyIiwiU2lkZWJhciIsIlRvYXN0UHJvdmlkZXIiLCJBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJhdHRyaWJ1dGUiLCJkZWZhdWx0VGhlbWUiLCJkaXYiLCJjbGFzc05hbWUiLCJtYWluIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+
+/***/ }),
+
+/***/ "./pages/_document.js":
+/*!****************************!*\
+  !*** ./pages/_document.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Document)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ \"./node_modules/next/document.js\");\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Document() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {\n        lang: \"en\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_document.js\",\n                lineNumber: 6,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Main, {}, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_document.js\",\n                        lineNumber: 8,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.NextScript, {}, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_document.js\",\n                        lineNumber: 9,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_document.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\_document.js\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fZG9jdW1lbnQuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQTREO0FBRTdDLFNBQVNJO0lBQ3RCLHFCQUNFLDhEQUFDSiwrQ0FBSUE7UUFBQ0ssTUFBSzs7MEJBQ1QsOERBQUNKLCtDQUFJQTs7Ozs7MEJBQ0wsOERBQUNLOztrQ0FDQyw4REFBQ0osK0NBQUlBOzs7OztrQ0FDTCw4REFBQ0MscURBQVVBOzs7Ozs7Ozs7Ozs7Ozs7OztBQUluQiIsInNvdXJjZXMiOlsid2VicGFjazovL21lZHNlY3VyZWFpLXByby8uL3BhZ2VzL19kb2N1bWVudC5qcz81MzhiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEh0bWwsIEhlYWQsIE1haW4sIE5leHRTY3JpcHQgfSBmcm9tICduZXh0L2RvY3VtZW50J1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRG9jdW1lbnQoKSB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxIdG1sIGxhbmc9XCJlblwiPlxyXG4gICAgICA8SGVhZCAvPlxyXG4gICAgICA8Ym9keT5cclxuICAgICAgICA8TWFpbiAvPlxyXG4gICAgICAgIDxOZXh0U2NyaXB0IC8+XHJcbiAgICAgIDwvYm9keT5cclxuICAgIDwvSHRtbD5cclxuICApXHJcbn1cclxuIl0sIm5hbWVzIjpbIkh0bWwiLCJIZWFkIiwiTWFpbiIsIk5leHRTY3JpcHQiLCJEb2N1bWVudCIsImxhbmciLCJib2R5Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_document.js\n");
+
+/***/ }),
+
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ \"./node_modules/next/dynamic.js\");\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst Dashboard = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>Promise.all(/*! import() */[__webpack_require__.e(\"vendor-chunks/recharts\"), __webpack_require__.e(\"pages_dashboard_js\")]).then(__webpack_require__.bind(__webpack_require__, /*! ./dashboard */ \"./pages/dashboard.js\")).then((m)=>m.default || m), {\n    loadableGenerated: {\n        modules: [\n            \"pages\\\\index.js -> \" + \"./dashboard\"\n        ]\n    },\n    ssr: false\n});\nfunction Home() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Dashboard, {}, void 0, false, {\n            fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\index.js\",\n            lineNumber: 8,\n            columnNumber: 7\n        }, this)\n    }, void 0, false);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBbUM7QUFFbkMsTUFBTUMsWUFBWUQsbURBQU9BLENBQUMsSUFBTSx5TkFBTyxDQUFlRSxJQUFJLENBQUNDLENBQUFBLElBQUtBLEVBQUVDLE9BQU8sSUFBSUQ7Ozs7OztJQUFNRSxLQUFLOztBQUV6RSxTQUFTQztJQUN0QixxQkFDRTtrQkFDRSw0RUFBQ0w7Ozs7OztBQUdQIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkc2VjdXJlYWktcHJvLy4vcGFnZXMvaW5kZXguanM/YmVlNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZHluYW1pYyBmcm9tICduZXh0L2R5bmFtaWMnO1xyXG5cclxuY29uc3QgRGFzaGJvYXJkID0gZHluYW1pYygoKSA9PiBpbXBvcnQoJy4vZGFzaGJvYXJkJykudGhlbihtID0+IG0uZGVmYXVsdCB8fCBtKSwgeyBzc3I6IGZhbHNlIH0pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHtcclxuICByZXR1cm4gKFxyXG4gICAgPD5cclxuICAgICAgPERhc2hib2FyZCAvPlxyXG4gICAgPC8+XHJcbiAgKTtcclxufVxyXG4iXSwibmFtZXMiOlsiZHluYW1pYyIsIkRhc2hib2FyZCIsInRoZW4iLCJtIiwiZGVmYXVsdCIsInNzciIsIkhvbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/index.js\n");
+
+/***/ }),
+
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "eventemitter3":
+/*!********************************!*\
+  !*** external "eventemitter3" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("eventemitter3");
+
+/***/ }),
+
+/***/ "lodash/every":
+/*!*******************************!*\
+  !*** external "lodash/every" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/every");
+
+/***/ }),
+
+/***/ "lodash/find":
+/*!******************************!*\
+  !*** external "lodash/find" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/find");
+
+/***/ }),
+
+/***/ "lodash/flatMap":
+/*!*********************************!*\
+  !*** external "lodash/flatMap" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/flatMap");
+
+/***/ }),
+
+/***/ "lodash/get":
+/*!*****************************!*\
+  !*** external "lodash/get" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/get");
+
+/***/ }),
+
+/***/ "lodash/isBoolean":
+/*!***********************************!*\
+  !*** external "lodash/isBoolean" ***!
+  \***********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isBoolean");
+
+/***/ }),
+
+/***/ "lodash/isEqual":
+/*!*********************************!*\
+  !*** external "lodash/isEqual" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isEqual");
+
+/***/ }),
+
+/***/ "lodash/isFunction":
+/*!************************************!*\
+  !*** external "lodash/isFunction" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isFunction");
+
+/***/ }),
+
+/***/ "lodash/isNaN":
+/*!*******************************!*\
+  !*** external "lodash/isNaN" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isNaN");
+
+/***/ }),
+
+/***/ "lodash/isNil":
+/*!*******************************!*\
+  !*** external "lodash/isNil" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isNil");
+
+/***/ }),
+
+/***/ "lodash/isNumber":
+/*!**********************************!*\
+  !*** external "lodash/isNumber" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isNumber");
+
+/***/ }),
+
+/***/ "lodash/isObject":
+/*!**********************************!*\
+  !*** external "lodash/isObject" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isObject");
+
+/***/ }),
+
+/***/ "lodash/isPlainObject":
+/*!***************************************!*\
+  !*** external "lodash/isPlainObject" ***!
+  \***************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isPlainObject");
+
+/***/ }),
+
+/***/ "lodash/isString":
+/*!**********************************!*\
+  !*** external "lodash/isString" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isString");
+
+/***/ }),
+
+/***/ "lodash/last":
+/*!******************************!*\
+  !*** external "lodash/last" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/last");
+
+/***/ }),
+
+/***/ "lodash/mapValues":
+/*!***********************************!*\
+  !*** external "lodash/mapValues" ***!
+  \***********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/mapValues");
+
+/***/ }),
+
+/***/ "lodash/max":
+/*!*****************************!*\
+  !*** external "lodash/max" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/max");
+
+/***/ }),
+
+/***/ "lodash/memoize":
+/*!*********************************!*\
+  !*** external "lodash/memoize" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/memoize");
+
+/***/ }),
+
+/***/ "lodash/min":
+/*!*****************************!*\
+  !*** external "lodash/min" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/min");
+
+/***/ }),
+
+/***/ "lodash/range":
+/*!*******************************!*\
+  !*** external "lodash/range" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/range");
+
+/***/ }),
+
+/***/ "lodash/some":
+/*!******************************!*\
+  !*** external "lodash/some" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/some");
+
+/***/ }),
+
+/***/ "lodash/sortBy":
+/*!********************************!*\
+  !*** external "lodash/sortBy" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/sortBy");
+
+/***/ }),
+
+/***/ "lodash/throttle":
+/*!**********************************!*\
+  !*** external "lodash/throttle" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/throttle");
+
+/***/ }),
+
+/***/ "lodash/uniqBy":
+/*!********************************!*\
+  !*** external "lodash/uniqBy" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/uniqBy");
+
+/***/ }),
+
+/***/ "lodash/upperFirst":
+/*!************************************!*\
+  !*** external "lodash/upperFirst" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/upperFirst");
+
+/***/ }),
+
+/***/ "next-themes":
+/*!******************************!*\
+  !*** external "next-themes" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next-themes");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/pages.runtime.dev.js":
+/*!**********************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages.runtime.dev.js" ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-dom":
+/*!****************************!*\
+  !*** external "react-dom" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-dom");
+
+/***/ }),
+
+/***/ "react-is":
+/*!***************************!*\
+  !*** external "react-is" ***!
+  \***************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-is");
+
+/***/ }),
+
+/***/ "react-smooth":
+/*!*******************************!*\
+  !*** external "react-smooth" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-smooth");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "react/jsx-runtime":
+/*!************************************!*\
+  !*** external "react/jsx-runtime" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-runtime");
+
+/***/ }),
+
+/***/ "recharts-scale":
+/*!*********************************!*\
+  !*** external "recharts-scale" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("recharts-scale");
+
+/***/ }),
+
+/***/ "victory-vendor/d3-scale":
+/*!******************************************!*\
+  !*** external "victory-vendor/d3-scale" ***!
+  \******************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("victory-vendor/d3-scale");
+
+/***/ }),
+
+/***/ "victory-vendor/d3-shape":
+/*!******************************************!*\
+  !*** external "victory-vendor/d3-shape" ***!
+  \******************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("victory-vendor/d3-shape");
+
+/***/ }),
+
+/***/ "clsx":
+/*!***********************!*\
+  !*** external "clsx" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = import("clsx");;
+
+/***/ }),
+
+/***/ "framer-motion":
+/*!********************************!*\
+  !*** external "framer-motion" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = import("framer-motion");;
+
+/***/ }),
+
+/***/ "tiny-invariant":
+/*!*********************************!*\
+  !*** external "tiny-invariant" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = import("tiny-invariant");;
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/lucide-react"], () => (__webpack_exec__("./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2F&preferredRegion=&absolutePagePath=.%2Fpages%5Cindex.js&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();

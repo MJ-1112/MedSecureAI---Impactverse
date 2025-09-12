@@ -14,14 +14,27 @@ export default function Login() {
     setLoading(true)
     setError("")
     setSuccess("")
+
     try {
-      const res = await fetch("/api/auth/login", {
+      // Direct backend URL
+      const res = await fetch("http://localhost:5000/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
       })
-      const data = await res.json()
+
+      const contentType = res.headers.get("content-type")
+      let data
+
+      if (contentType && contentType.includes("application/json")) {
+        data = await res.json()
+      } else {
+        const text = await res.text()
+        throw new Error(`Server did not return JSON: ${text.slice(0, 100)}`)
+      }
+
       if (!res.ok) throw new Error(data?.message || "Login failed")
+
       setSuccess("✅ Login successful")
     } catch (err) {
       setError(err.message)
@@ -34,7 +47,7 @@ export default function Login() {
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md">
         <h2 className="text-2xl font-semibold text-center mb-6">Log In</h2>
-        
+
         {error && <p className="text-red-500 text-sm text-center mb-2">{error}</p>}
         {success && <p className="text-green-600 text-sm text-center mb-2">{success}</p>}
 
