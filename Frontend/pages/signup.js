@@ -1,6 +1,5 @@
 "use client"
 import React, { useState } from "react"
-import toast, { Toaster } from "react-hot-toast"
 
 export default function Signup() {
   const [email, setEmail] = useState("")
@@ -9,18 +8,20 @@ export default function Signup() {
   const [confirm, setConfirm] = useState("")
   const [show, setShow] = useState(false)
   const [loading, setLoading] = useState(false)
+  const [error, setError] = useState("")
+  const [success, setSuccess] = useState("")
 
   function validate() {
     if (!email || !name || !password || !confirm) {
-      toast.error("All fields are required")
+      setError("All fields are required")
       return false
     }
     if (password.length < 6) {
-      toast.error("Password must be at least 6 characters")
+      setError("Password must be at least 6 characters")
       return false
     }
     if (password !== confirm) {
-      toast.error("Passwords do not match")
+      setError("Passwords do not match")
       return false
     }
     return true
@@ -28,6 +29,8 @@ export default function Signup() {
 
   async function handle(e) {
     e.preventDefault()
+    setError("")
+    setSuccess("")
     if (!validate()) return
     setLoading(true)
     try {
@@ -38,13 +41,13 @@ export default function Signup() {
       })
       const data = await res.json()
       if (!res.ok) throw new Error(data?.message || "Signup failed")
-      toast.success("Signup successful 🎉 You can now log in.")
+      setSuccess("Signup successful 🎉 You can now log in.")
       setEmail("")
       setName("")
       setPassword("")
       setConfirm("")
     } catch (err) {
-      toast.error(err.message)
+      setError(err.message)
     } finally {
       setLoading(false)
     }
@@ -52,9 +55,12 @@ export default function Signup() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <Toaster position="top-center" />
       <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md">
         <h2 className="text-2xl font-semibold text-center mb-6">Create Account</h2>
+        
+        {error && <p className="text-red-500 text-sm text-center mb-2">{error}</p>}
+        {success && <p className="text-green-600 text-sm text-center mb-2">{success}</p>}
+
         <form onSubmit={handle} className="space-y-4">
           <div>
             <label className="block text-sm font-medium mb-1">Email</label>

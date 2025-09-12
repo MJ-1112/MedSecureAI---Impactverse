@@ -1,16 +1,19 @@
 "use client"
 import React, { useState } from "react"
-import toast, { Toaster } from "react-hot-toast"
 
 export default function Login() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [show, setShow] = useState(false)
   const [loading, setLoading] = useState(false)
+  const [error, setError] = useState("")
+  const [success, setSuccess] = useState("")
 
   async function handle(e) {
     e.preventDefault()
     setLoading(true)
+    setError("")
+    setSuccess("")
     try {
       const res = await fetch("/api/auth/login", {
         method: "POST",
@@ -19,9 +22,9 @@ export default function Login() {
       })
       const data = await res.json()
       if (!res.ok) throw new Error(data?.message || "Login failed")
-      toast.success("Login successful 🎉")
+      setSuccess("✅ Login successful")
     } catch (err) {
-      toast.error(err.message)
+      setError(err.message)
     } finally {
       setLoading(false)
     }
@@ -29,9 +32,12 @@ export default function Login() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <Toaster position="top-center" />
       <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md">
         <h2 className="text-2xl font-semibold text-center mb-6">Log In</h2>
+        
+        {error && <p className="text-red-500 text-sm text-center mb-2">{error}</p>}
+        {success && <p className="text-green-600 text-sm text-center mb-2">{success}</p>}
+
         <form onSubmit={handle} className="space-y-4">
           <div>
             <label className="block text-sm font-medium mb-1">Email</label>
