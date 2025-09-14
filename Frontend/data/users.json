@@ -1,11 +1,10 @@
 [
   {
-    "id": "U1",
-    "name": "Akshat Jha",
-    "email": "akshat@example.com",
-    "phone": "+91-9999999999",
-    "address": "Mumbai, India",
-    "photo": "/public/images/profile-placeholder.png",
+    "name": "Mahik",
+    "email": "mj9262@srmist.edu.in",
+    "phone": "9818860837",
+    "address": "Delhi,India",
+    "photo": "",
     "joined": "2023-04-12",
     "theme": "light"
   }

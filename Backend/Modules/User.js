@@ -1,23 +1,15 @@
 import mongoose from "mongoose";
 
-const userSchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  email: { type: String, unique: true, required: true },
-  password: { type: String, required: true },
-  phone: { type: String, required: true },
-  region: { 
-    type: String, 
-    enum: [
-      "North India", "South India", "East India",
-      "West India", "Central India", "North-East India"
-    ], 
-    required: true 
+const userSchema = new mongoose.Schema(
+  {
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
+    phone: String,
+    region: String,
+    role: { type: String, enum: ["user", "admin"], default: "user" }
   },
-  role: { type: String, enum: ["chemist", "supplier"], required: true },
-  verified: { type: Boolean, default: false },
-  ipfsHash: { type: String, default: "" },
-  photo: { type: String, default: "" },
-  joined: { type: Date, default: Date.now }
-});
+  { timestamps: true }
+);
 
 export default mongoose.model("User", userSchema);

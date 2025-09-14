@@ -1,56 +1,117 @@
-import { useEffect, useState } from 'react'
-import LineChartComp from '@/components/charts/LineChartComp'
-import BarChartComp from '@/components/charts/BarChartComp'
-import TiltCard from '@/components/TiltCard'
-import { useToast } from '@/components/toastContext'
+"use client"
+import { useEffect, useState } from "react"
+import { useRouter } from "next/router"
 
-function Stat({label, value}){
+export default function Dashboard() {
+  const [profile, setProfile] = useState(null)
+  const [file, setFile] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const r = useRouter()
+
+  // Get userId from localStorage (set during login)
+  const userId =
+    typeof window !== "undefined" ? localStorage.getItem("userId") : null
+
+  // Fetch profile on mount
+  useEffect(() => {
+    if (!userId) {
+      r.replace("/login")
+      return
+    }
+
+    fetch(`http://localhost:5000/api/profile?userId=${userId}`)
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.success) setProfile(data.user)
+        setLoading(false)
+      })
+      .catch((err) => {
+        console.error("Profile fetch error:", err)
+        setLoading(false)
+      })
+  }, [userId])
+
+  // Upload verification document
+  const handleVerify = async () => {
+    if (!file) return alert("Please select a file first")
+    const formData = new FormData()
+    formData.append("document", file)
+    formData.append("userId", userId) // send userId to backend
+
+    try {
+      const res = await fetch("http://localhost:5000/api/verify", {
+        method: "POST",
+        body: formData,
+      })
+      const data = await res.json()
+      if (data.success) {
+        alert("✅ Document uploaded: " + data.url)
+      } else {
+        alert("❌ " + data.message)
+      }
+    } catch (err) {
+      console.error("Verify error:", err)
+      alert("Upload failed")
+    }
+  }
+
+  // Logout
+  const handleLogout = () => {
+    localStorage.removeItem("userId")
+    localStorage.removeItem("role")
+    r.push("/login")
+  }
+
   return (
-    <TiltCard className='card p-4'>
-      <div>
-        <div className='text-sm text-gray-500'>{label}</div>
-        <div className='text-2xl font-bold mt-2'>{value}</div>
-      </div>
-    </TiltCard>
-  )
-}
-
-export default function Dashboard(){
-  const [lastSynced,setLast] = useState(null)
-  const [lineData,setLineData] = useState([
-    {name:'Wk1', value:120},{name:'Wk2', value:180},{name:'Wk3', value:240},{name:'Wk4', value:300}
-  ])
-  const [barData,setBarData] = useState([{name:'Paracetamol',value:300},{name:'Amoxi',value:180},{name:'ORS',value:220}])
-  const { pushToast } = useToast()
-
-  useEffect(()=>{
-    const iv = setInterval(()=>{
-      // update data randomly
-      setLineData(d=> [...d.slice(1), {name:'Wk'+(d.length+1), value: Math.max(50, Math.round((d[d.length-1].value||200)*(0.9+Math.random()*0.2)))}])
-      setBarData(d=> d.map(it=> ({...it, value: Math.max(10, Math.round(it.value*(0.9+Math.random()*0.2)))})))
-      const t = new Date().toLocaleTimeString()
-      setLast(t)
-      pushToast({title:'Dashboard Synced', body: 'Latest analytics refreshed'})
-    }, 3000)
-    return ()=> clearInterval(iv)
-  }, [pushToast])
-
-  return (
-    <div className='space-y-6'>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
-        <Stat label='Total Orders (M)' value='152' />
-        <Stat label='Active Stock' value='12,340' />
-        <Stat label='Supply Efficiency' value='93%' />
-      </div>
-
-      <div className='grid md:grid-cols-2 gap-4'>
-        <div className='card p-4'>
-          <h3 className='font-semibold'>Orders Trend <span className='text-sm text-gray-400'>· Last synced: {lastSynced}</span></h3>
-          <LineChartComp data={lineData} />
+    <div className="min-h-screen bg-gray-100 p-6">
+      <div className="max-w-2xl mx-auto bg-white rounded-xl shadow p-6 space-y-6">
+        {/* Header */}
+        <div className="flex justify-between items-center">
+          <h1 className="text-2xl font-bold">Dashboard</h1>
+          <button
+            onClick={handleLogout}
+            className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600"
+          >
+            Logout
+          </button>
         </div>
-        <div className='card p-4'>
-          <h3 className='font-semibold'>Top Medicines</h3>
-          <BarChartComp data={barData} />
+
+        {/* Profile */}
+        {loading ? (
+          <p>Loading profile...</p>
+        ) : profile ? (
+          <div className="space-y-2">
+            <p>
+              <b>Name:</b> {profile.name}
+            </p>
+            <p>
+              <b>Email:</b> {profile.email}
+            </p>
+            <p>
+              <b>Role:</b> {profile.role}
+            </p>
+            <p>
+              <b>Region:</b> {profile.region}
+            </p>
+          </div>
+        ) : (
+          <p className="text-red-500">⚠️ Failed to load profile</p>
+        )}
+
+        {/* Verification */}
+        <div className="space-y-3">
+          <h2 className="text-lg font-semibold">Verification</h2>
+          <input
+            type="file"
+            onChange={(e) => setFile(e.target.files[0])}
+            className="border p-2 rounded w-full"
+          />
+          <button
+            onClick={handleVerify}
+            className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+          >
+            Upload to IPFS
+          </button>
         </div>
       </div>
     </div>

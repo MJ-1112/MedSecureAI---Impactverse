@@ -27,11 +27,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/login.js"
     ],
-    "/meddata": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/meddata.js"
-    ],
     "/signup": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
