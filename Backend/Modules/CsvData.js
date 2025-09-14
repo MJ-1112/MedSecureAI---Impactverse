@@ -1,8 +1,11 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
-const csvDataSchema = new mongoose.Schema({
-  fields: Object,
-  createdAt: { type: Date, default: Date.now }
+const csvSchema = new mongoose.Schema({
+  name: String,
+  manufacturer: String,
+  batch: String,
+  expiry: String,
+  price: Number
 });
 
-export default mongoose.model('CsvData', csvDataSchema);
+export default mongoose.model("CsvData", csvSchema);

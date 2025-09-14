@@ -1,14 +1,20 @@
-import CsvData from '../Modules/CsvData.js';
-import csv from 'csvtojson';
-import fs from 'fs';
+import CsvData from "../Modules/CsvData.js";
+import fs from "fs";
+import path from "path";
+import csvParser from "csv-parser";
 
-export const uploadCsv = async (req,res) => {
-    try{
-        const jsonArray = await csv().fromFile(req.file.path);
-        await CsvData.insertMany(jsonArray.map(row=>({fields: row})));
-        fs.unlinkSync(req.file.path); // remove temp file
-        res.status(201).json({message:'CSV uploaded', count: jsonArray.length});
-    }catch(err){
-        res.status(500).json({message:'CSV upload error', error: err.message});
-    }
-}
+export const loadCsv = async (req, res) => {
+  const results = [];
+  fs.createReadStream(path.join(process.cwd(), "data", "medData.csv"))
+    .pipe(csvParser())
+    .on("data", (row) => results.push(row))
+    .on("end", async () => {
+      await CsvData.insertMany(results);
+      res.json(results);
+    });
+};
+
+export const getCsvData = async (req, res) => {
+  const data = await CsvData.find();
+  res.json(data);
+};

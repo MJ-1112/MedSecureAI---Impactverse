@@ -41,7 +41,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   config: () => (/* binding */ config),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   getServerSideProps: () => (/* binding */ getServerSideProps),\n/* harmony export */   getStaticPaths: () => (/* binding */ getStaticPaths),\n/* harmony export */   getStaticProps: () => (/* binding */ getStaticProps),\n/* harmony export */   reportWebVitals: () => (/* binding */ reportWebVitals),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   unstable_getServerProps: () => (/* binding */ unstable_getServerProps),\n/* harmony export */   unstable_getServerSideProps: () => (/* binding */ unstable_getServerSideProps),\n/* harmony export */   unstable_getStaticParams: () => (/* binding */ unstable_getStaticParams),\n/* harmony export */   unstable_getStaticPaths: () => (/* binding */ unstable_getStaticPaths),\n/* harmony export */   unstable_getStaticProps: () => (/* binding */ unstable_getStaticProps)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/pages/module.compiled */ \"./node_modules/next/dist/server/future/route-modules/pages/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/build/templates/helpers */ \"./node_modules/next/dist/build/templates/helpers.js\");\n/* harmony import */ var private_next_pages_document__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! private-next-pages/_document */ \"./pages/_document.js\");\n/* harmony import */ var private_next_pages_app__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! private-next-pages/_app */ \"./pages/_app.js\");\n/* harmony import */ var _pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages\\dashboard.jsx */ \"./pages/dashboard.jsx\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([private_next_pages_app__WEBPACK_IMPORTED_MODULE_4__, _pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__]);\n([private_next_pages_app__WEBPACK_IMPORTED_MODULE_4__, _pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n// Import the app and document modules.\n\n\n// Import the userland code.\n\n// Re-export the component (should be the default export).\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"default\"));\n// Re-export methods.\nconst getStaticProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"getStaticProps\");\nconst getStaticPaths = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"getStaticPaths\");\nconst getServerSideProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"getServerSideProps\");\nconst config = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"config\");\nconst reportWebVitals = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"reportWebVitals\");\n// Re-export legacy methods.\nconst unstable_getStaticProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getStaticProps\");\nconst unstable_getStaticPaths = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getStaticPaths\");\nconst unstable_getStaticParams = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getStaticParams\");\nconst unstable_getServerProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getServerProps\");\nconst unstable_getServerSideProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getServerSideProps\");\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0__.PagesRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.PAGES,\n        page: \"/dashboard\",\n        pathname: \"/dashboard\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\"\n    },\n    components: {\n        App: private_next_pages_app__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n        Document: private_next_pages_document__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n    },\n    userland: _pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__\n});\n\n//# sourceMappingURL=pages.js.map\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LXJvdXRlLWxvYWRlci9pbmRleC5qcz9raW5kPVBBR0VTJnBhZ2U9JTJGZGFzaGJvYXJkJnByZWZlcnJlZFJlZ2lvbj0mYWJzb2x1dGVQYWdlUGF0aD0uJTJGcGFnZXMlNUNkYXNoYm9hcmQuanN4JmFic29sdXRlQXBwUGF0aD1wcml2YXRlLW5leHQtcGFnZXMlMkZfYXBwJmFic29sdXRlRG9jdW1lbnRQYXRoPXByaXZhdGUtbmV4dC1wYWdlcyUyRl9kb2N1bWVudCZtaWRkbGV3YXJlQ29uZmlnQmFzZTY0PWUzMCUzRCEiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUErRjtBQUNoQztBQUNMO0FBQzFEO0FBQ29EO0FBQ1Y7QUFDMUM7QUFDbUQ7QUFDbkQ7QUFDQSxpRUFBZSx3RUFBSyxDQUFDLGlEQUFRLFlBQVksRUFBQztBQUMxQztBQUNPLHVCQUF1Qix3RUFBSyxDQUFDLGlEQUFRO0FBQ3JDLHVCQUF1Qix3RUFBSyxDQUFDLGlEQUFRO0FBQ3JDLDJCQUEyQix3RUFBSyxDQUFDLGlEQUFRO0FBQ3pDLGVBQWUsd0VBQUssQ0FBQyxpREFBUTtBQUM3Qix3QkFBd0Isd0VBQUssQ0FBQyxpREFBUTtBQUM3QztBQUNPLGdDQUFnQyx3RUFBSyxDQUFDLGlEQUFRO0FBQzlDLGdDQUFnQyx3RUFBSyxDQUFDLGlEQUFRO0FBQzlDLGlDQUFpQyx3RUFBSyxDQUFDLGlEQUFRO0FBQy9DLGdDQUFnQyx3RUFBSyxDQUFDLGlEQUFRO0FBQzlDLG9DQUFvQyx3RUFBSyxDQUFDLGlEQUFRO0FBQ3pEO0FBQ08sd0JBQXdCLHlHQUFnQjtBQUMvQztBQUNBLGNBQWMseUVBQVM7QUFDdkI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTDtBQUNBLFdBQVc7QUFDWCxnQkFBZ0I7QUFDaEIsS0FBSztBQUNMLFlBQVk7QUFDWixDQUFDOztBQUVELGlDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkc2VjdXJlYWktcHJvLz80ZjU3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFBhZ2VzUm91dGVNb2R1bGUgfSBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9mdXR1cmUvcm91dGUtbW9kdWxlcy9wYWdlcy9tb2R1bGUuY29tcGlsZWRcIjtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1raW5kXCI7XG5pbXBvcnQgeyBob2lzdCB9IGZyb20gXCJuZXh0L2Rpc3QvYnVpbGQvdGVtcGxhdGVzL2hlbHBlcnNcIjtcbi8vIEltcG9ydCB0aGUgYXBwIGFuZCBkb2N1bWVudCBtb2R1bGVzLlxuaW1wb3J0IERvY3VtZW50IGZyb20gXCJwcml2YXRlLW5leHQtcGFnZXMvX2RvY3VtZW50XCI7XG5pbXBvcnQgQXBwIGZyb20gXCJwcml2YXRlLW5leHQtcGFnZXMvX2FwcFwiO1xuLy8gSW1wb3J0IHRoZSB1c2VybGFuZCBjb2RlLlxuaW1wb3J0ICogYXMgdXNlcmxhbmQgZnJvbSBcIi4vcGFnZXNcXFxcZGFzaGJvYXJkLmpzeFwiO1xuLy8gUmUtZXhwb3J0IHRoZSBjb21wb25lbnQgKHNob3VsZCBiZSB0aGUgZGVmYXVsdCBleHBvcnQpLlxuZXhwb3J0IGRlZmF1bHQgaG9pc3QodXNlcmxhbmQsIFwiZGVmYXVsdFwiKTtcbi8vIFJlLWV4cG9ydCBtZXRob2RzLlxuZXhwb3J0IGNvbnN0IGdldFN0YXRpY1Byb3BzID0gaG9pc3QodXNlcmxhbmQsIFwiZ2V0U3RhdGljUHJvcHNcIik7XG5leHBvcnQgY29uc3QgZ2V0U3RhdGljUGF0aHMgPSBob2lzdCh1c2VybGFuZCwgXCJnZXRTdGF0aWNQYXRoc1wiKTtcbmV4cG9ydCBjb25zdCBnZXRTZXJ2ZXJTaWRlUHJvcHMgPSBob2lzdCh1c2VybGFuZCwgXCJnZXRTZXJ2ZXJTaWRlUHJvcHNcIik7XG5leHBvcnQgY29uc3QgY29uZmlnID0gaG9pc3QodXNlcmxhbmQsIFwiY29uZmlnXCIpO1xuZXhwb3J0IGNvbnN0IHJlcG9ydFdlYlZpdGFscyA9IGhvaXN0KHVzZXJsYW5kLCBcInJlcG9ydFdlYlZpdGFsc1wiKTtcbi8vIFJlLWV4cG9ydCBsZWdhY3kgbWV0aG9kcy5cbmV4cG9ydCBjb25zdCB1bnN0YWJsZV9nZXRTdGF0aWNQcm9wcyA9IGhvaXN0KHVzZXJsYW5kLCBcInVuc3RhYmxlX2dldFN0YXRpY1Byb3BzXCIpO1xuZXhwb3J0IGNvbnN0IHVuc3RhYmxlX2dldFN0YXRpY1BhdGhzID0gaG9pc3QodXNlcmxhbmQsIFwidW5zdGFibGVfZ2V0U3RhdGljUGF0aHNcIik7XG5leHBvcnQgY29uc3QgdW5zdGFibGVfZ2V0U3RhdGljUGFyYW1zID0gaG9pc3QodXNlcmxhbmQsIFwidW5zdGFibGVfZ2V0U3RhdGljUGFyYW1zXCIpO1xuZXhwb3J0IGNvbnN0IHVuc3RhYmxlX2dldFNlcnZlclByb3BzID0gaG9pc3QodXNlcmxhbmQsIFwidW5zdGFibGVfZ2V0U2VydmVyUHJvcHNcIik7XG5leHBvcnQgY29uc3QgdW5zdGFibGVfZ2V0U2VydmVyU2lkZVByb3BzID0gaG9pc3QodXNlcmxhbmQsIFwidW5zdGFibGVfZ2V0U2VydmVyU2lkZVByb3BzXCIpO1xuLy8gQ3JlYXRlIGFuZCBleHBvcnQgdGhlIHJvdXRlIG1vZHVsZSB0aGF0IHdpbGwgYmUgY29uc3VtZWQuXG5leHBvcnQgY29uc3Qgcm91dGVNb2R1bGUgPSBuZXcgUGFnZXNSb3V0ZU1vZHVsZSh7XG4gICAgZGVmaW5pdGlvbjoge1xuICAgICAgICBraW5kOiBSb3V0ZUtpbmQuUEFHRVMsXG4gICAgICAgIHBhZ2U6IFwiL2Rhc2hib2FyZFwiLFxuICAgICAgICBwYXRobmFtZTogXCIvZGFzaGJvYXJkXCIsXG4gICAgICAgIC8vIFRoZSBmb2xsb3dpbmcgYXJlbid0IHVzZWQgaW4gcHJvZHVjdGlvbi5cbiAgICAgICAgYnVuZGxlUGF0aDogXCJcIixcbiAgICAgICAgZmlsZW5hbWU6IFwiXCJcbiAgICB9LFxuICAgIGNvbXBvbmVudHM6IHtcbiAgICAgICAgQXBwLFxuICAgICAgICBEb2N1bWVudFxuICAgIH0sXG4gICAgdXNlcmxhbmRcbn0pO1xuXG4vLyMgc291cmNlTWFwcGluZ1VSTD1wYWdlcy5qcy5tYXAiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2Fdashboard&preferredRegion=&absolutePagePath=.%2Fpages%5Cdashboard.jsx&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D!\n");
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   config: () => (/* binding */ config),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   getServerSideProps: () => (/* binding */ getServerSideProps),\n/* harmony export */   getStaticPaths: () => (/* binding */ getStaticPaths),\n/* harmony export */   getStaticProps: () => (/* binding */ getStaticProps),\n/* harmony export */   reportWebVitals: () => (/* binding */ reportWebVitals),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   unstable_getServerProps: () => (/* binding */ unstable_getServerProps),\n/* harmony export */   unstable_getServerSideProps: () => (/* binding */ unstable_getServerSideProps),\n/* harmony export */   unstable_getStaticParams: () => (/* binding */ unstable_getStaticParams),\n/* harmony export */   unstable_getStaticPaths: () => (/* binding */ unstable_getStaticPaths),\n/* harmony export */   unstable_getStaticProps: () => (/* binding */ unstable_getStaticProps)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/pages/module.compiled */ \"./node_modules/next/dist/server/future/route-modules/pages/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/build/templates/helpers */ \"./node_modules/next/dist/build/templates/helpers.js\");\n/* harmony import */ var private_next_pages_document__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! private-next-pages/_document */ \"./pages/_document.js\");\n/* harmony import */ var private_next_pages_app__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! private-next-pages/_app */ \"./pages/_app.js\");\n/* harmony import */ var _pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages\\dashboard.jsx */ \"./pages/dashboard.jsx\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([private_next_pages_app__WEBPACK_IMPORTED_MODULE_4__]);\nprivate_next_pages_app__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n// Import the app and document modules.\n\n\n// Import the userland code.\n\n// Re-export the component (should be the default export).\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"default\"));\n// Re-export methods.\nconst getStaticProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"getStaticProps\");\nconst getStaticPaths = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"getStaticPaths\");\nconst getServerSideProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"getServerSideProps\");\nconst config = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"config\");\nconst reportWebVitals = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"reportWebVitals\");\n// Re-export legacy methods.\nconst unstable_getStaticProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getStaticProps\");\nconst unstable_getStaticPaths = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getStaticPaths\");\nconst unstable_getStaticParams = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getStaticParams\");\nconst unstable_getServerProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getServerProps\");\nconst unstable_getServerSideProps = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__, \"unstable_getServerSideProps\");\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_pages_module_compiled__WEBPACK_IMPORTED_MODULE_0__.PagesRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.PAGES,\n        page: \"/dashboard\",\n        pathname: \"/dashboard\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\"\n    },\n    components: {\n        App: private_next_pages_app__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n        Document: private_next_pages_document__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n    },\n    userland: _pages_dashboard_jsx__WEBPACK_IMPORTED_MODULE_5__\n});\n\n//# sourceMappingURL=pages.js.map\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LXJvdXRlLWxvYWRlci9pbmRleC5qcz9raW5kPVBBR0VTJnBhZ2U9JTJGZGFzaGJvYXJkJnByZWZlcnJlZFJlZ2lvbj0mYWJzb2x1dGVQYWdlUGF0aD0uJTJGcGFnZXMlNUNkYXNoYm9hcmQuanN4JmFic29sdXRlQXBwUGF0aD1wcml2YXRlLW5leHQtcGFnZXMlMkZfYXBwJmFic29sdXRlRG9jdW1lbnRQYXRoPXByaXZhdGUtbmV4dC1wYWdlcyUyRl9kb2N1bWVudCZtaWRkbGV3YXJlQ29uZmlnQmFzZTY0PWUzMCUzRCEiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUErRjtBQUNoQztBQUNMO0FBQzFEO0FBQ29EO0FBQ1Y7QUFDMUM7QUFDbUQ7QUFDbkQ7QUFDQSxpRUFBZSx3RUFBSyxDQUFDLGlEQUFRLFlBQVksRUFBQztBQUMxQztBQUNPLHVCQUF1Qix3RUFBSyxDQUFDLGlEQUFRO0FBQ3JDLHVCQUF1Qix3RUFBSyxDQUFDLGlEQUFRO0FBQ3JDLDJCQUEyQix3RUFBSyxDQUFDLGlEQUFRO0FBQ3pDLGVBQWUsd0VBQUssQ0FBQyxpREFBUTtBQUM3Qix3QkFBd0Isd0VBQUssQ0FBQyxpREFBUTtBQUM3QztBQUNPLGdDQUFnQyx3RUFBSyxDQUFDLGlEQUFRO0FBQzlDLGdDQUFnQyx3RUFBSyxDQUFDLGlEQUFRO0FBQzlDLGlDQUFpQyx3RUFBSyxDQUFDLGlEQUFRO0FBQy9DLGdDQUFnQyx3RUFBSyxDQUFDLGlEQUFRO0FBQzlDLG9DQUFvQyx3RUFBSyxDQUFDLGlEQUFRO0FBQ3pEO0FBQ08sd0JBQXdCLHlHQUFnQjtBQUMvQztBQUNBLGNBQWMseUVBQVM7QUFDdkI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTDtBQUNBLFdBQVc7QUFDWCxnQkFBZ0I7QUFDaEIsS0FBSztBQUNMLFlBQVk7QUFDWixDQUFDOztBQUVELGlDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkc2VjdXJlYWktcHJvLz80ZjU3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFBhZ2VzUm91dGVNb2R1bGUgfSBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9mdXR1cmUvcm91dGUtbW9kdWxlcy9wYWdlcy9tb2R1bGUuY29tcGlsZWRcIjtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1raW5kXCI7XG5pbXBvcnQgeyBob2lzdCB9IGZyb20gXCJuZXh0L2Rpc3QvYnVpbGQvdGVtcGxhdGVzL2hlbHBlcnNcIjtcbi8vIEltcG9ydCB0aGUgYXBwIGFuZCBkb2N1bWVudCBtb2R1bGVzLlxuaW1wb3J0IERvY3VtZW50IGZyb20gXCJwcml2YXRlLW5leHQtcGFnZXMvX2RvY3VtZW50XCI7XG5pbXBvcnQgQXBwIGZyb20gXCJwcml2YXRlLW5leHQtcGFnZXMvX2FwcFwiO1xuLy8gSW1wb3J0IHRoZSB1c2VybGFuZCBjb2RlLlxuaW1wb3J0ICogYXMgdXNlcmxhbmQgZnJvbSBcIi4vcGFnZXNcXFxcZGFzaGJvYXJkLmpzeFwiO1xuLy8gUmUtZXhwb3J0IHRoZSBjb21wb25lbnQgKHNob3VsZCBiZSB0aGUgZGVmYXVsdCBleHBvcnQpLlxuZXhwb3J0IGRlZmF1bHQgaG9pc3QodXNlcmxhbmQsIFwiZGVmYXVsdFwiKTtcbi8vIFJlLWV4cG9ydCBtZXRob2RzLlxuZXhwb3J0IGNvbnN0IGdldFN0YXRpY1Byb3BzID0gaG9pc3QodXNlcmxhbmQsIFwiZ2V0U3RhdGljUHJvcHNcIik7XG5leHBvcnQgY29uc3QgZ2V0U3RhdGljUGF0aHMgPSBob2lzdCh1c2VybGFuZCwgXCJnZXRTdGF0aWNQYXRoc1wiKTtcbmV4cG9ydCBjb25zdCBnZXRTZXJ2ZXJTaWRlUHJvcHMgPSBob2lzdCh1c2VybGFuZCwgXCJnZXRTZXJ2ZXJTaWRlUHJvcHNcIik7XG5leHBvcnQgY29uc3QgY29uZmlnID0gaG9pc3QodXNlcmxhbmQsIFwiY29uZmlnXCIpO1xuZXhwb3J0IGNvbnN0IHJlcG9ydFdlYlZpdGFscyA9IGhvaXN0KHVzZXJsYW5kLCBcInJlcG9ydFdlYlZpdGFsc1wiKTtcbi8vIFJlLWV4cG9ydCBsZWdhY3kgbWV0aG9kcy5cbmV4cG9ydCBjb25zdCB1bnN0YWJsZV9nZXRTdGF0aWNQcm9wcyA9IGhvaXN0KHVzZXJsYW5kLCBcInVuc3RhYmxlX2dldFN0YXRpY1Byb3BzXCIpO1xuZXhwb3J0IGNvbnN0IHVuc3RhYmxlX2dldFN0YXRpY1BhdGhzID0gaG9pc3QodXNlcmxhbmQsIFwidW5zdGFibGVfZ2V0U3RhdGljUGF0aHNcIik7XG5leHBvcnQgY29uc3QgdW5zdGFibGVfZ2V0U3RhdGljUGFyYW1zID0gaG9pc3QodXNlcmxhbmQsIFwidW5zdGFibGVfZ2V0U3RhdGljUGFyYW1zXCIpO1xuZXhwb3J0IGNvbnN0IHVuc3RhYmxlX2dldFNlcnZlclByb3BzID0gaG9pc3QodXNlcmxhbmQsIFwidW5zdGFibGVfZ2V0U2VydmVyUHJvcHNcIik7XG5leHBvcnQgY29uc3QgdW5zdGFibGVfZ2V0U2VydmVyU2lkZVByb3BzID0gaG9pc3QodXNlcmxhbmQsIFwidW5zdGFibGVfZ2V0U2VydmVyU2lkZVByb3BzXCIpO1xuLy8gQ3JlYXRlIGFuZCBleHBvcnQgdGhlIHJvdXRlIG1vZHVsZSB0aGF0IHdpbGwgYmUgY29uc3VtZWQuXG5leHBvcnQgY29uc3Qgcm91dGVNb2R1bGUgPSBuZXcgUGFnZXNSb3V0ZU1vZHVsZSh7XG4gICAgZGVmaW5pdGlvbjoge1xuICAgICAgICBraW5kOiBSb3V0ZUtpbmQuUEFHRVMsXG4gICAgICAgIHBhZ2U6IFwiL2Rhc2hib2FyZFwiLFxuICAgICAgICBwYXRobmFtZTogXCIvZGFzaGJvYXJkXCIsXG4gICAgICAgIC8vIFRoZSBmb2xsb3dpbmcgYXJlbid0IHVzZWQgaW4gcHJvZHVjdGlvbi5cbiAgICAgICAgYnVuZGxlUGF0aDogXCJcIixcbiAgICAgICAgZmlsZW5hbWU6IFwiXCJcbiAgICB9LFxuICAgIGNvbXBvbmVudHM6IHtcbiAgICAgICAgQXBwLFxuICAgICAgICBEb2N1bWVudFxuICAgIH0sXG4gICAgdXNlcmxhbmRcbn0pO1xuXG4vLyMgc291cmNlTWFwcGluZ1VSTD1wYWdlcy5qcy5tYXAiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2Fdashboard&preferredRegion=&absolutePagePath=.%2Fpages%5Cdashboard.jsx&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D!\n");
 
 /***/ }),
 
@@ -104,10 +104,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*!*****************************!*\
   !*** ./pages/dashboard.jsx ***!
   \*****************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Dashboard),\n/* harmony export */   getServerSideProps: () => (/* binding */ getServerSideProps)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fs */ \"fs\");\n/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(fs__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! path */ \"path\");\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dynamic */ \"./node_modules/next/dynamic.js\");\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_4__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\n\nconst BarMonthly = next_dynamic__WEBPACK_IMPORTED_MODULE_3___default()(()=>Promise.all(/*! import() */[__webpack_require__.e(\"vendor-chunks/recharts\"), __webpack_require__.e(\"components_charts_DashboardBar_jsx\")]).then(__webpack_require__.bind(__webpack_require__, /*! @/components/charts/DashboardBar */ \"./components/charts/DashboardBar.jsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"pages\\\\dashboard.jsx -> \" + \"@/components/charts/DashboardBar\"\n        ]\n    },\n    ssr: false\n});\nasync function getServerSideProps() {\n    const filePath = path__WEBPACK_IMPORTED_MODULE_2___default().join(process.cwd(), \"data\", \"dashboard.json\");\n    const payload = JSON.parse(fs__WEBPACK_IMPORTED_MODULE_1___default().readFileSync(filePath, \"utf-8\"));\n    return {\n        props: {\n            payload\n        }\n    };\n}\nfunction Dashboard({ payload }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n        className: \"pt-28 px-6 max-w-7xl mx-auto\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.h1, {\n                initial: {\n                    opacity: 0,\n                    y: 20\n                },\n                whileInView: {\n                    opacity: 1,\n                    y: 0\n                },\n                transition: {\n                    duration: 0.6\n                },\n                className: \"text-4xl font-extrabold mb-6\",\n                children: \"Admin Dashboard\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                lineNumber: 17,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"grid md:grid-cols-4 gap-6\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"card\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"text-sm text-gray-500\",\n                                children: \"Prediction Accuracy\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                                lineNumber: 20,\n                                columnNumber: 31\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"text-3xl font-bold\",\n                                children: [\n                                    payload.prediction_accuracy,\n                                    \"%\"\n                                ]\n                            }, void 0, true, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                                lineNumber: 20,\n                                columnNumber: 91\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                        lineNumber: 20,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"card\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"text-sm text-gray-500\",\n                                children: \"Blockchain Entries\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                                lineNumber: 21,\n                                columnNumber: 31\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"text-3xl font-bold\",\n                                children: payload.blockchain_entries\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                                lineNumber: 21,\n                                columnNumber: 90\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                        lineNumber: 21,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"card\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"text-sm text-gray-500\",\n                                children: \"Counterfeit Cases\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                                lineNumber: 22,\n                                columnNumber: 31\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"text-3xl font-bold\",\n                                children: payload.counterfeit_cases_detected\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                                lineNumber: 22,\n                                columnNumber: 89\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                        lineNumber: 22,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"card\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"text-sm text-gray-500\",\n                                children: \"Supply Chain Nodes\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                                lineNumber: 23,\n                                columnNumber: 31\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"text-3xl font-bold\",\n                                children: payload.supply_chain_nodes\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                                lineNumber: 23,\n                                columnNumber: 90\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                        lineNumber: 23,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                lineNumber: 19,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"card mt-6\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                        className: \"text-xl font-semibold mb-3\",\n                        children: \"Monthly Trend\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                        lineNumber: 27,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(BarMonthly, {\n                        data: payload.monthlyTrend\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                        lineNumber: 28,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                lineNumber: 26,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n        lineNumber: 16,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9kYXNoYm9hcmQuanN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFtQjtBQUNJO0FBQ1c7QUFDSTtBQUV0QyxNQUFNSSxhQUFhRixtREFBT0EsQ0FBQyxJQUFJLDhRQUFPOzs7Ozs7SUFBdUNHLEtBQUs7O0FBRTNFLGVBQWVDO0lBQ3BCLE1BQU1DLFdBQVdOLGdEQUFTLENBQUNRLFFBQVFDLEdBQUcsSUFBSSxRQUFRO0lBQ2xELE1BQU1DLFVBQVVDLEtBQUtDLEtBQUssQ0FBQ2Isc0RBQWUsQ0FBQ08sVUFBVTtJQUNyRCxPQUFPO1FBQUVRLE9BQU87WUFBRUo7UUFBUTtJQUFFO0FBQzlCO0FBRWUsU0FBU0ssVUFBVSxFQUFFTCxPQUFPLEVBQUU7SUFDM0MscUJBQ0UsOERBQUNNO1FBQUtDLFdBQVU7OzBCQUNkLDhEQUFDZixpREFBTUEsQ0FBQ2dCLEVBQUU7Z0JBQUNDLFNBQVM7b0JBQUNDLFNBQVE7b0JBQUdDLEdBQUU7Z0JBQUU7Z0JBQUdDLGFBQWE7b0JBQUNGLFNBQVE7b0JBQUdDLEdBQUU7Z0JBQUM7Z0JBQUdFLFlBQVk7b0JBQUNDLFVBQVM7Z0JBQUc7Z0JBQUdQLFdBQVU7MEJBQStCOzs7Ozs7MEJBRTNJLDhEQUFDUTtnQkFBSVIsV0FBVTs7a0NBQ2IsOERBQUNRO3dCQUFJUixXQUFVOzswQ0FBTyw4REFBQ1M7Z0NBQUVULFdBQVU7MENBQXdCOzs7Ozs7MENBQXVCLDhEQUFDUztnQ0FBRVQsV0FBVTs7b0NBQXNCUCxRQUFRaUIsbUJBQW1CO29DQUFDOzs7Ozs7Ozs7Ozs7O2tDQUNqSiw4REFBQ0Y7d0JBQUlSLFdBQVU7OzBDQUFPLDhEQUFDUztnQ0FBRVQsV0FBVTswQ0FBd0I7Ozs7OzswQ0FBc0IsOERBQUNTO2dDQUFFVCxXQUFVOzBDQUFzQlAsUUFBUWtCLGtCQUFrQjs7Ozs7Ozs7Ozs7O2tDQUM5SSw4REFBQ0g7d0JBQUlSLFdBQVU7OzBDQUFPLDhEQUFDUztnQ0FBRVQsV0FBVTswQ0FBd0I7Ozs7OzswQ0FBcUIsOERBQUNTO2dDQUFFVCxXQUFVOzBDQUFzQlAsUUFBUW1CLDBCQUEwQjs7Ozs7Ozs7Ozs7O2tDQUNySiw4REFBQ0o7d0JBQUlSLFdBQVU7OzBDQUFPLDhEQUFDUztnQ0FBRVQsV0FBVTswQ0FBd0I7Ozs7OzswQ0FBc0IsOERBQUNTO2dDQUFFVCxXQUFVOzBDQUFzQlAsUUFBUW9CLGtCQUFrQjs7Ozs7Ozs7Ozs7Ozs7Ozs7OzBCQUdoSiw4REFBQ0w7Z0JBQUlSLFdBQVU7O2tDQUNiLDhEQUFDYzt3QkFBR2QsV0FBVTtrQ0FBNkI7Ozs7OztrQ0FDM0MsOERBQUNkO3dCQUFXNkIsTUFBTXRCLFFBQVF1QixZQUFZOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJOUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tZWRzZWN1cmVhaS1wcm8vLi9wYWdlcy9kYXNoYm9hcmQuanN4P2EzNTUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGZzIGZyb20gJ2ZzJ1xyXG5pbXBvcnQgcGF0aCBmcm9tICdwYXRoJ1xyXG5pbXBvcnQgZHluYW1pYyBmcm9tICduZXh0L2R5bmFtaWMnXHJcbmltcG9ydCB7IG1vdGlvbiB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nXHJcblxyXG5jb25zdCBCYXJNb250aGx5ID0gZHluYW1pYygoKT0+aW1wb3J0KCdAL2NvbXBvbmVudHMvY2hhcnRzL0Rhc2hib2FyZEJhcicpLCB7IHNzcjogZmFsc2UgfSlcclxuXHJcbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRTZXJ2ZXJTaWRlUHJvcHMoKXtcclxuICBjb25zdCBmaWxlUGF0aCA9IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAnZGF0YScsICdkYXNoYm9hcmQuanNvbicpXHJcbiAgY29uc3QgcGF5bG9hZCA9IEpTT04ucGFyc2UoZnMucmVhZEZpbGVTeW5jKGZpbGVQYXRoLCAndXRmLTgnKSlcclxuICByZXR1cm4geyBwcm9wczogeyBwYXlsb2FkIH0gfVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBEYXNoYm9hcmQoeyBwYXlsb2FkIH0pe1xyXG4gIHJldHVybiAoXHJcbiAgICA8bWFpbiBjbGFzc05hbWU9XCJwdC0yOCBweC02IG1heC13LTd4bCBteC1hdXRvXCI+XHJcbiAgICAgIDxtb3Rpb24uaDEgaW5pdGlhbD17e29wYWNpdHk6MCwgeToyMH19IHdoaWxlSW5WaWV3PXt7b3BhY2l0eToxLCB5OjB9fSB0cmFuc2l0aW9uPXt7ZHVyYXRpb246MC42fX0gY2xhc3NOYW1lPVwidGV4dC00eGwgZm9udC1leHRyYWJvbGQgbWItNlwiPkFkbWluIERhc2hib2FyZDwvbW90aW9uLmgxPlxyXG5cclxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJncmlkIG1kOmdyaWQtY29scy00IGdhcC02XCI+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjYXJkXCI+PHAgY2xhc3NOYW1lPVwidGV4dC1zbSB0ZXh0LWdyYXktNTAwXCI+UHJlZGljdGlvbiBBY2N1cmFjeTwvcD48cCBjbGFzc05hbWU9XCJ0ZXh0LTN4bCBmb250LWJvbGRcIj57cGF5bG9hZC5wcmVkaWN0aW9uX2FjY3VyYWN5fSU8L3A+PC9kaXY+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjYXJkXCI+PHAgY2xhc3NOYW1lPVwidGV4dC1zbSB0ZXh0LWdyYXktNTAwXCI+QmxvY2tjaGFpbiBFbnRyaWVzPC9wPjxwIGNsYXNzTmFtZT1cInRleHQtM3hsIGZvbnQtYm9sZFwiPntwYXlsb2FkLmJsb2NrY2hhaW5fZW50cmllc308L3A+PC9kaXY+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjYXJkXCI+PHAgY2xhc3NOYW1lPVwidGV4dC1zbSB0ZXh0LWdyYXktNTAwXCI+Q291bnRlcmZlaXQgQ2FzZXM8L3A+PHAgY2xhc3NOYW1lPVwidGV4dC0zeGwgZm9udC1ib2xkXCI+e3BheWxvYWQuY291bnRlcmZlaXRfY2FzZXNfZGV0ZWN0ZWR9PC9wPjwvZGl2PlxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZFwiPjxwIGNsYXNzTmFtZT1cInRleHQtc20gdGV4dC1ncmF5LTUwMFwiPlN1cHBseSBDaGFpbiBOb2RlczwvcD48cCBjbGFzc05hbWU9XCJ0ZXh0LTN4bCBmb250LWJvbGRcIj57cGF5bG9hZC5zdXBwbHlfY2hhaW5fbm9kZXN9PC9wPjwvZGl2PlxyXG4gICAgICA8L2Rpdj5cclxuXHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZCBtdC02XCI+XHJcbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRleHQteGwgZm9udC1zZW1pYm9sZCBtYi0zXCI+TW9udGhseSBUcmVuZDwvaDM+XHJcbiAgICAgICAgPEJhck1vbnRobHkgZGF0YT17cGF5bG9hZC5tb250aGx5VHJlbmR9Lz5cclxuICAgICAgPC9kaXY+XHJcbiAgICA8L21haW4+XHJcbiAgKVxyXG59XHJcbiJdLCJuYW1lcyI6WyJmcyIsInBhdGgiLCJkeW5hbWljIiwibW90aW9uIiwiQmFyTW9udGhseSIsInNzciIsImdldFNlcnZlclNpZGVQcm9wcyIsImZpbGVQYXRoIiwiam9pbiIsInByb2Nlc3MiLCJjd2QiLCJwYXlsb2FkIiwiSlNPTiIsInBhcnNlIiwicmVhZEZpbGVTeW5jIiwicHJvcHMiLCJEYXNoYm9hcmQiLCJtYWluIiwiY2xhc3NOYW1lIiwiaDEiLCJpbml0aWFsIiwib3BhY2l0eSIsInkiLCJ3aGlsZUluVmlldyIsInRyYW5zaXRpb24iLCJkdXJhdGlvbiIsImRpdiIsInAiLCJwcmVkaWN0aW9uX2FjY3VyYWN5IiwiYmxvY2tjaGFpbl9lbnRyaWVzIiwiY291bnRlcmZlaXRfY2FzZXNfZGV0ZWN0ZWQiLCJzdXBwbHlfY2hhaW5fbm9kZXMiLCJoMyIsImRhdGEiLCJtb250aGx5VHJlbmQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/dashboard.jsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Dashboard)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\nfunction Dashboard() {\n    const [user, setUser] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);\n    const [loading, setLoading] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(true);\n    const [file, setFile] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);\n    const token =  false ? 0 : null;\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        if (!token) return;\n        fetch(\"http://localhost:5000/api/profile\", {\n            headers: {\n                Authorization: `Bearer ${token}`\n            }\n        }).then((res)=>res.json()).then((data)=>{\n            setUser(data);\n            setLoading(false);\n        });\n    }, [\n        token\n    ]);\n    async function handleVerify() {\n        if (!file) return alert(\"Upload a document first\");\n        const formData = new FormData();\n        formData.append(\"doc\", file);\n        const res = await fetch(\"http://localhost:5000/api/verify\", {\n            method: \"POST\",\n            headers: {\n                Authorization: `Bearer ${token}`\n            },\n            body: formData\n        });\n        const data = await res.json();\n        if (res.ok) setUser(data.user);\n        alert(data.message);\n    }\n    if (loading) return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n        children: \"Loading...\"\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n        lineNumber: 33,\n        columnNumber: 23\n    }, this);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n        className: \"p-6\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                className: \"text-3xl font-bold\",\n                children: [\n                    \"Welcome, \",\n                    user.name\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                lineNumber: 37,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                children: [\n                    \"Email: \",\n                    user.email\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                lineNumber: 38,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                children: [\n                    \"Phone: \",\n                    user.phone\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                lineNumber: 39,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                children: [\n                    \"Region: \",\n                    user.region\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                lineNumber: 40,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                children: [\n                    \"Status: \",\n                    user.verified ? \"✅ Verified\" : \"❌ Not Verified\"\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                lineNumber: 41,\n                columnNumber: 7\n            }, this),\n            !user.verified && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"mt-4\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                        type: \"file\",\n                        onChange: (e)=>setFile(e.target.files[0])\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                        lineNumber: 45,\n                        columnNumber: 11\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                        onClick: handleVerify,\n                        className: \"px-4 py-2 bg-green-600 text-white rounded ml-2\",\n                        children: \"Verify Identity\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                        lineNumber: 46,\n                        columnNumber: 11\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n                lineNumber: 44,\n                columnNumber: 9\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\DELL\\\\Documents\\\\something\\\\MedSecureAI---Impactverse\\\\Frontend\\\\pages\\\\dashboard.jsx\",\n        lineNumber: 36,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9kYXNoYm9hcmQuanN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUMyQztBQUU1QixTQUFTRTtJQUN0QixNQUFNLENBQUNDLE1BQU1DLFFBQVEsR0FBR0gsK0NBQVFBLENBQUM7SUFDakMsTUFBTSxDQUFDSSxTQUFTQyxXQUFXLEdBQUdMLCtDQUFRQSxDQUFDO0lBQ3ZDLE1BQU0sQ0FBQ00sTUFBTUMsUUFBUSxHQUFHUCwrQ0FBUUEsQ0FBQztJQUNqQyxNQUFNUSxRQUFRLE1BQTZCLEdBQUdDLENBQTZCLEdBQUc7SUFFOUVWLGdEQUFTQSxDQUFDO1FBQ1IsSUFBSSxDQUFDUyxPQUFPO1FBQ1pHLE1BQU0scUNBQXFDO1lBQ3pDQyxTQUFTO2dCQUFFQyxlQUFlLENBQUMsT0FBTyxFQUFFTCxNQUFNLENBQUM7WUFBQztRQUM5QyxHQUNHTSxJQUFJLENBQUNDLENBQUFBLE1BQU9BLElBQUlDLElBQUksSUFDcEJGLElBQUksQ0FBQ0csQ0FBQUE7WUFBVWQsUUFBUWM7WUFBT1osV0FBVztRQUFPO0lBQ3JELEdBQUc7UUFBQ0c7S0FBTTtJQUVWLGVBQWVVO1FBQ2IsSUFBSSxDQUFDWixNQUFNLE9BQU9hLE1BQU07UUFDeEIsTUFBTUMsV0FBVyxJQUFJQztRQUNyQkQsU0FBU0UsTUFBTSxDQUFDLE9BQU9oQjtRQUN2QixNQUFNUyxNQUFNLE1BQU1KLE1BQU0sb0NBQW9DO1lBQzFEWSxRQUFRO1lBQ1JYLFNBQVM7Z0JBQUVDLGVBQWUsQ0FBQyxPQUFPLEVBQUVMLE1BQU0sQ0FBQztZQUFDO1lBQzVDZ0IsTUFBTUo7UUFDUjtRQUNBLE1BQU1ILE9BQU8sTUFBTUYsSUFBSUMsSUFBSTtRQUMzQixJQUFHRCxJQUFJVSxFQUFFLEVBQUV0QixRQUFRYyxLQUFLZixJQUFJO1FBQzVCaUIsTUFBTUYsS0FBS1MsT0FBTztJQUNwQjtJQUVBLElBQUl0QixTQUFTLHFCQUFPLDhEQUFDdUI7a0JBQUU7Ozs7OztJQUV2QixxQkFDRSw4REFBQ0M7UUFBS0MsV0FBVTs7MEJBQ2QsOERBQUNDO2dCQUFHRCxXQUFVOztvQkFBcUI7b0JBQVUzQixLQUFLNkIsSUFBSTs7Ozs7OzswQkFDdEQsOERBQUNKOztvQkFBRTtvQkFBUXpCLEtBQUs4QixLQUFLOzs7Ozs7OzBCQUNyQiw4REFBQ0w7O29CQUFFO29CQUFRekIsS0FBSytCLEtBQUs7Ozs7Ozs7MEJBQ3JCLDhEQUFDTjs7b0JBQUU7b0JBQVN6QixLQUFLZ0MsTUFBTTs7Ozs7OzswQkFDdkIsOERBQUNQOztvQkFBRTtvQkFBU3pCLEtBQUtpQyxRQUFRLEdBQUcsZUFBZTs7Ozs7OztZQUUxQyxDQUFDakMsS0FBS2lDLFFBQVEsa0JBQ2IsOERBQUNDO2dCQUFJUCxXQUFVOztrQ0FDYiw4REFBQ1E7d0JBQU1DLE1BQUs7d0JBQU9DLFVBQVVDLENBQUFBLElBQUdqQyxRQUFRaUMsRUFBRUMsTUFBTSxDQUFDQyxLQUFLLENBQUMsRUFBRTs7Ozs7O2tDQUN6RCw4REFBQ0M7d0JBQU9DLFNBQVMxQjt3QkFBY1csV0FBVTtrQ0FBaUQ7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUtwRyIsInNvdXJjZXMiOlsid2VicGFjazovL21lZHNlY3VyZWFpLXByby8uL3BhZ2VzL2Rhc2hib2FyZC5qc3g/YTM1NSJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBjbGllbnRcIlxyXG5pbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCJcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIERhc2hib2FyZCgpIHtcclxuICBjb25zdCBbdXNlciwgc2V0VXNlcl0gPSB1c2VTdGF0ZShudWxsKVxyXG4gIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKHRydWUpXHJcbiAgY29uc3QgW2ZpbGUsIHNldEZpbGVdID0gdXNlU3RhdGUobnVsbClcclxuICBjb25zdCB0b2tlbiA9IHR5cGVvZiB3aW5kb3cgIT09IFwidW5kZWZpbmVkXCIgPyBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShcInRva2VuXCIpIDogbnVsbFxyXG5cclxuICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgaWYgKCF0b2tlbikgcmV0dXJuXHJcbiAgICBmZXRjaChcImh0dHA6Ly9sb2NhbGhvc3Q6NTAwMC9hcGkvcHJvZmlsZVwiLCB7XHJcbiAgICAgIGhlYWRlcnM6IHsgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke3Rva2VufWAgfVxyXG4gICAgfSlcclxuICAgICAgLnRoZW4ocmVzID0+IHJlcy5qc29uKCkpXHJcbiAgICAgIC50aGVuKGRhdGEgPT4geyBzZXRVc2VyKGRhdGEpOyBzZXRMb2FkaW5nKGZhbHNlKSB9KVxyXG4gIH0sIFt0b2tlbl0pXHJcblxyXG4gIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZVZlcmlmeSgpIHtcclxuICAgIGlmICghZmlsZSkgcmV0dXJuIGFsZXJ0KFwiVXBsb2FkIGEgZG9jdW1lbnQgZmlyc3RcIilcclxuICAgIGNvbnN0IGZvcm1EYXRhID0gbmV3IEZvcm1EYXRhKClcclxuICAgIGZvcm1EYXRhLmFwcGVuZChcImRvY1wiLCBmaWxlKVxyXG4gICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goXCJodHRwOi8vbG9jYWxob3N0OjUwMDAvYXBpL3ZlcmlmeVwiLCB7XHJcbiAgICAgIG1ldGhvZDogXCJQT1NUXCIsXHJcbiAgICAgIGhlYWRlcnM6IHsgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke3Rva2VufWAgfSxcclxuICAgICAgYm9keTogZm9ybURhdGFcclxuICAgIH0pXHJcbiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzLmpzb24oKVxyXG4gICAgaWYocmVzLm9rKSBzZXRVc2VyKGRhdGEudXNlcilcclxuICAgIGFsZXJ0KGRhdGEubWVzc2FnZSlcclxuICB9XHJcblxyXG4gIGlmIChsb2FkaW5nKSByZXR1cm4gPHA+TG9hZGluZy4uLjwvcD5cclxuXHJcbiAgcmV0dXJuIChcclxuICAgIDxtYWluIGNsYXNzTmFtZT1cInAtNlwiPlxyXG4gICAgICA8aDEgY2xhc3NOYW1lPVwidGV4dC0zeGwgZm9udC1ib2xkXCI+V2VsY29tZSwge3VzZXIubmFtZX08L2gxPlxyXG4gICAgICA8cD5FbWFpbDoge3VzZXIuZW1haWx9PC9wPlxyXG4gICAgICA8cD5QaG9uZToge3VzZXIucGhvbmV9PC9wPlxyXG4gICAgICA8cD5SZWdpb246IHt1c2VyLnJlZ2lvbn08L3A+XHJcbiAgICAgIDxwPlN0YXR1czoge3VzZXIudmVyaWZpZWQgPyBcIuKchSBWZXJpZmllZFwiIDogXCLinYwgTm90IFZlcmlmaWVkXCJ9PC9wPlxyXG5cclxuICAgICAgeyF1c2VyLnZlcmlmaWVkICYmIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm10LTRcIj5cclxuICAgICAgICAgIDxpbnB1dCB0eXBlPVwiZmlsZVwiIG9uQ2hhbmdlPXtlPT5zZXRGaWxlKGUudGFyZ2V0LmZpbGVzWzBdKX0vPlxyXG4gICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtoYW5kbGVWZXJpZnl9IGNsYXNzTmFtZT1cInB4LTQgcHktMiBiZy1ncmVlbi02MDAgdGV4dC13aGl0ZSByb3VuZGVkIG1sLTJcIj5WZXJpZnkgSWRlbnRpdHk8L2J1dHRvbj5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgKX1cclxuICAgIDwvbWFpbj5cclxuICApXHJcbn1cclxuIl0sIm5hbWVzIjpbInVzZUVmZmVjdCIsInVzZVN0YXRlIiwiRGFzaGJvYXJkIiwidXNlciIsInNldFVzZXIiLCJsb2FkaW5nIiwic2V0TG9hZGluZyIsImZpbGUiLCJzZXRGaWxlIiwidG9rZW4iLCJsb2NhbFN0b3JhZ2UiLCJnZXRJdGVtIiwiZmV0Y2giLCJoZWFkZXJzIiwiQXV0aG9yaXphdGlvbiIsInRoZW4iLCJyZXMiLCJqc29uIiwiZGF0YSIsImhhbmRsZVZlcmlmeSIsImFsZXJ0IiwiZm9ybURhdGEiLCJGb3JtRGF0YSIsImFwcGVuZCIsIm1ldGhvZCIsImJvZHkiLCJvayIsIm1lc3NhZ2UiLCJwIiwibWFpbiIsImNsYXNzTmFtZSIsImgxIiwibmFtZSIsImVtYWlsIiwicGhvbmUiLCJyZWdpb24iLCJ2ZXJpZmllZCIsImRpdiIsImlucHV0IiwidHlwZSIsIm9uQ2hhbmdlIiwiZSIsInRhcmdldCIsImZpbGVzIiwiYnV0dG9uIiwib25DbGljayJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/dashboard.jsx\n");
 
 /***/ }),
 
@@ -118,281 +118,6 @@ eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__
 /***/ (() => {
 
 
-
-/***/ }),
-
-/***/ "eventemitter3":
-/*!********************************!*\
-  !*** external "eventemitter3" ***!
-  \********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("eventemitter3");
-
-/***/ }),
-
-/***/ "lodash/every":
-/*!*******************************!*\
-  !*** external "lodash/every" ***!
-  \*******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/every");
-
-/***/ }),
-
-/***/ "lodash/find":
-/*!******************************!*\
-  !*** external "lodash/find" ***!
-  \******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/find");
-
-/***/ }),
-
-/***/ "lodash/flatMap":
-/*!*********************************!*\
-  !*** external "lodash/flatMap" ***!
-  \*********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/flatMap");
-
-/***/ }),
-
-/***/ "lodash/get":
-/*!*****************************!*\
-  !*** external "lodash/get" ***!
-  \*****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/get");
-
-/***/ }),
-
-/***/ "lodash/isBoolean":
-/*!***********************************!*\
-  !*** external "lodash/isBoolean" ***!
-  \***********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/isBoolean");
-
-/***/ }),
-
-/***/ "lodash/isEqual":
-/*!*********************************!*\
-  !*** external "lodash/isEqual" ***!
-  \*********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/isEqual");
-
-/***/ }),
-
-/***/ "lodash/isFunction":
-/*!************************************!*\
-  !*** external "lodash/isFunction" ***!
-  \************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/isFunction");
-
-/***/ }),
-
-/***/ "lodash/isNaN":
-/*!*******************************!*\
-  !*** external "lodash/isNaN" ***!
-  \*******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/isNaN");
-
-/***/ }),
-
-/***/ "lodash/isNil":
-/*!*******************************!*\
-  !*** external "lodash/isNil" ***!
-  \*******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/isNil");
-
-/***/ }),
-
-/***/ "lodash/isNumber":
-/*!**********************************!*\
-  !*** external "lodash/isNumber" ***!
-  \**********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/isNumber");
-
-/***/ }),
-
-/***/ "lodash/isObject":
-/*!**********************************!*\
-  !*** external "lodash/isObject" ***!
-  \**********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/isObject");
-
-/***/ }),
-
-/***/ "lodash/isPlainObject":
-/*!***************************************!*\
-  !*** external "lodash/isPlainObject" ***!
-  \***************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/isPlainObject");
-
-/***/ }),
-
-/***/ "lodash/isString":
-/*!**********************************!*\
-  !*** external "lodash/isString" ***!
-  \**********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/isString");
-
-/***/ }),
-
-/***/ "lodash/last":
-/*!******************************!*\
-  !*** external "lodash/last" ***!
-  \******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/last");
-
-/***/ }),
-
-/***/ "lodash/mapValues":
-/*!***********************************!*\
-  !*** external "lodash/mapValues" ***!
-  \***********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/mapValues");
-
-/***/ }),
-
-/***/ "lodash/max":
-/*!*****************************!*\
-  !*** external "lodash/max" ***!
-  \*****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/max");
-
-/***/ }),
-
-/***/ "lodash/memoize":
-/*!*********************************!*\
-  !*** external "lodash/memoize" ***!
-  \*********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/memoize");
-
-/***/ }),
-
-/***/ "lodash/min":
-/*!*****************************!*\
-  !*** external "lodash/min" ***!
-  \*****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/min");
-
-/***/ }),
-
-/***/ "lodash/range":
-/*!*******************************!*\
-  !*** external "lodash/range" ***!
-  \*******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/range");
-
-/***/ }),
-
-/***/ "lodash/some":
-/*!******************************!*\
-  !*** external "lodash/some" ***!
-  \******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/some");
-
-/***/ }),
-
-/***/ "lodash/sortBy":
-/*!********************************!*\
-  !*** external "lodash/sortBy" ***!
-  \********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/sortBy");
-
-/***/ }),
-
-/***/ "lodash/throttle":
-/*!**********************************!*\
-  !*** external "lodash/throttle" ***!
-  \**********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/throttle");
-
-/***/ }),
-
-/***/ "lodash/uniqBy":
-/*!********************************!*\
-  !*** external "lodash/uniqBy" ***!
-  \********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/uniqBy");
-
-/***/ }),
-
-/***/ "lodash/upperFirst":
-/*!************************************!*\
-  !*** external "lodash/upperFirst" ***!
-  \************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("lodash/upperFirst");
 
 /***/ }),
 
@@ -440,28 +165,6 @@ module.exports = require("react-dom");
 
 /***/ }),
 
-/***/ "react-is":
-/*!***************************!*\
-  !*** external "react-is" ***!
-  \***************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("react-is");
-
-/***/ }),
-
-/***/ "react-smooth":
-/*!*******************************!*\
-  !*** external "react-smooth" ***!
-  \*******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("react-smooth");
-
-/***/ }),
-
 /***/ "react/jsx-dev-runtime":
 /*!****************************************!*\
   !*** external "react/jsx-dev-runtime" ***!
@@ -484,50 +187,6 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "recharts-scale":
-/*!*********************************!*\
-  !*** external "recharts-scale" ***!
-  \*********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("recharts-scale");
-
-/***/ }),
-
-/***/ "victory-vendor/d3-scale":
-/*!******************************************!*\
-  !*** external "victory-vendor/d3-scale" ***!
-  \******************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("victory-vendor/d3-scale");
-
-/***/ }),
-
-/***/ "victory-vendor/d3-shape":
-/*!******************************************!*\
-  !*** external "victory-vendor/d3-shape" ***!
-  \******************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("victory-vendor/d3-shape");
-
-/***/ }),
-
-/***/ "clsx":
-/*!***********************!*\
-  !*** external "clsx" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = import("clsx");;
-
-/***/ }),
-
 /***/ "framer-motion":
 /*!********************************!*\
   !*** external "framer-motion" ***!
@@ -536,17 +195,6 @@ module.exports = import("clsx");;
 
 "use strict";
 module.exports = import("framer-motion");;
-
-/***/ }),
-
-/***/ "tiny-invariant":
-/*!*********************************!*\
-  !*** external "tiny-invariant" ***!
-  \*********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = import("tiny-invariant");;
 
 /***/ }),
 

@@ -2,25 +2,29 @@
 import React, { useState } from "react"
 
 export default function Signup() {
-  const [email, setEmail] = useState("")
-  const [name, setName] = useState("")
-  const [password, setPassword] = useState("")
-  const [confirm, setConfirm] = useState("")
-  const [show, setShow] = useState(false)
+  const [form, setForm] = useState({
+    email: "",
+    name: "",
+    phone: "",
+    password: "",
+    confirm: "",
+    region: "",
+    role: "chemist"
+  })
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState("")
   const [success, setSuccess] = useState("")
 
   function validate() {
-    if (!email || !name || !password || !confirm) {
+    if (!form.email || !form.name || !form.phone || !form.password || !form.confirm || !form.region) {
       setError("All fields are required")
       return false
     }
-    if (password.length < 6) {
+    if (form.password.length < 6) {
       setError("Password must be at least 6 characters")
       return false
     }
-    if (password !== confirm) {
+    if (form.password !== form.confirm) {
       setError("Passwords do not match")
       return false
     }
@@ -34,18 +38,15 @@ export default function Signup() {
     if (!validate()) return
     setLoading(true)
     try {
-      const res = await fetch("https://medsecureai-impactverse.onrender.com/auth/signup", {
+      const res = await fetch("http://localhost:5000/api/auth/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, name, password }),
+        body: JSON.stringify(form),
       })
       const data = await res.json()
       if (!res.ok) throw new Error(data?.message || "Signup failed")
       setSuccess("Signup successful 🎉 You can now log in.")
-      setEmail("")
-      setName("")
-      setPassword("")
-      setConfirm("")
+      setForm({ email:"", name:"", phone:"", password:"", confirm:"", region:"", role:"chemist" })
     } catch (err) {
       setError(err.message)
     } finally {
@@ -62,78 +63,32 @@ export default function Signup() {
         {success && <p className="text-green-600 text-sm text-center mb-2">{success}</p>}
 
         <form onSubmit={handle} className="space-y-4">
-          <div>
-            <label className="block text-sm font-medium mb-1">Email</label>
-            <input
-              required
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="you@example.com"
-              className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 outline-none"
-            />
-          </div>
+          <input placeholder="Email" type="email" value={form.email} onChange={e=>setForm({...form,email:e.target.value})} className="w-full border rounded-lg px-3 py-2"/>
+          <input placeholder="Name" type="text" value={form.name} onChange={e=>setForm({...form,name:e.target.value})} className="w-full border rounded-lg px-3 py-2"/>
+          <input placeholder="Phone" type="text" value={form.phone} onChange={e=>setForm({...form,phone:e.target.value})} className="w-full border rounded-lg px-3 py-2"/>
+          
+          <select value={form.region} onChange={e=>setForm({...form,region:e.target.value})} className="w-full border rounded-lg px-3 py-2">
+            <option value="">Select Region</option>
+            <option>North India</option>
+            <option>South India</option>
+            <option>East India</option>
+            <option>West India</option>
+            <option>Central India</option>
+            <option>North-East India</option>
+          </select>
 
-          <div>
-            <label className="block text-sm font-medium mb-1">Name</label>
-            <input
-              required
-              type="text"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              placeholder="Your full name"
-              className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 outline-none"
-            />
-          </div>
+          <select value={form.role} onChange={e=>setForm({...form,role:e.target.value})} className="w-full border rounded-lg px-3 py-2">
+            <option value="chemist">Chemist</option>
+            <option value="supplier">Supplier</option>
+          </select>
 
-          <div>
-            <label className="block text-sm font-medium mb-1">Password</label>
-            <div className="relative">
-              <input
-                required
-                type={show ? "text" : "password"}
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="At least 6 characters"
-                className="w-full border rounded-lg px-3 py-2 pr-16 focus:ring-2 focus:ring-indigo-500 outline-none"
-              />
-              <button
-                type="button"
-                onClick={() => setShow((s) => !s)}
-                className="absolute inset-y-0 right-3 text-sm text-indigo-600"
-              >
-                {show ? "Hide" : "Show"}
-              </button>
-            </div>
-          </div>
+          <input placeholder="Password" type="password" value={form.password} onChange={e=>setForm({...form,password:e.target.value})} className="w-full border rounded-lg px-3 py-2"/>
+          <input placeholder="Confirm Password" type="password" value={form.confirm} onChange={e=>setForm({...form,confirm:e.target.value})} className="w-full border rounded-lg px-3 py-2"/>
 
-          <div>
-            <label className="block text-sm font-medium mb-1">Confirm Password</label>
-            <input
-              required
-              type="password"
-              value={confirm}
-              onChange={(e) => setConfirm(e.target.value)}
-              placeholder="Re-enter password"
-              className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 outline-none"
-            />
-          </div>
-
-          <button
-            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded-lg transition disabled:opacity-50"
-            type="submit"
-            disabled={loading}
-          >
-            {loading ? "Creating..." : "Create account"}
+          <button type="submit" disabled={loading} className="w-full bg-indigo-600 text-white py-2 rounded-lg">
+            {loading ? "Creating..." : "Create Account"}
           </button>
         </form>
-
-        <p className="text-sm text-center mt-4">
-          Already have an account?{" "}
-          <a href="/login" className="text-indigo-600 hover:underline">
-            Sign in
-          </a>
-        </p>
       </div>
     </div>
   )

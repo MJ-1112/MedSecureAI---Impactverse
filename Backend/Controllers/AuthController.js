@@ -1,52 +1,35 @@
-import UserModel, { regions } from "../Modules/User.js";
-import bcrypt from 'bcrypt';
-import jwt from 'jsonwebtoken';
+import bcrypt from "bcryptjs";
+import jwt from "jsonwebtoken";
+import User from "../Modules/User.js";
 
-const signup = async(req,res) =>{
-    try{
-        const {name,email,password, phone, region} = req.body;
+export const signup = async (req, res) => {
+  try {
+    const { name, email, password, phone, region, role } = req.body;
+    const hashed = await bcrypt.hash(password, 10);
+    const user = await User.create({ name, email, password: hashed, phone, region, role });
+    res.status(201).json({ message: "Signup successful", user });
+  } catch (err) {
+    res.status(400).json({ message: err.message });
+  }
+};
 
-        if(!regions.includes(region)) return res.status(400).json({message:'Invalid region', success:false});
+export const login = async (req, res) => {
+  try {
+    const { email, password, role } = req.body;
+    const user = await User.findOne({ email, role });
+    if (!user) return res.status(404).json({ message: "User not found" });
 
-        const user = await UserModel.findOne({email});
-        if(user) return res.status(409).json({message:'User exists', success:false});
+    const ok = await bcrypt.compare(password, user.password);
+    if (!ok) return res.status(401).json({ message: "Invalid credentials" });
 
-        const userModel = new UserModel({name,email,password, phone, region});
-        userModel.password = await bcrypt.hash(password,10);
-        await userModel.save();
+    const token = jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET);
+    res.json({ token, user });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
 
-        res.status(201).json({ message:"Signup Successful", success:true });
-    } catch (error) {
-        res.status(500).json({ message: "Error in signup", success: false, error: error.message });
-    }
-}
-
-const login = async (req,res) => {
-    try{
-        const { email, password } = req.body;
-        const user = await UserModel.findOne({ email });
-        if (!user) return res.status(404).json({ message: 'User not found', success: false });
-
-        const isMatch = await bcrypt.compare(password, user.password);
-        if (!isMatch) return res.status(401).json({ message: 'Invalid credentials', success: false });
-
-        const jwtToken = jwt.sign({email:user.email, id:user._id}, process.env.JWT_SECRET, {expiresIn:'10h'});
-
-        res.status(200).json({
-            message: 'Login successful',
-            success: true,
-            jwtToken,
-            user: {
-                name: user.name,
-                email: user.email,
-                phone: user.phone,
-                region: user.region,
-                verified: user.verified
-            }
-        });
-    } catch(error){
-        res.status(500).json({message:'Error in login', success:false, error:error.message});
-    }
-}
-
-export { signup, login };
+export const profile = async (req, res) => {
+  const user = await User.findById(req.user.id);
+  res.json(user);
+};

@@ -1,8 +1,1 @@
-{
-  "pages\\dashboard.jsx -> @/components/charts/DashboardBar": {
-    "id": "pages\\dashboard.jsx -> @/components/charts/DashboardBar",
-    "files": [
-      "static/chunks/components_charts_DashboardBar_jsx.js"
-    ]
-  }
-}
+{}

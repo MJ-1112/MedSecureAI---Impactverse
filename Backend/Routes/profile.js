@@ -1,12 +1,9 @@
-import express from 'express';
-import isAuthenticated from '../Middlewares/Auth.js';
-import UserModel from '../Modules/User.js';
+import express from "express";
+import { profile } from "../Controllers/AuthController.js";
+import auth from "../Middlewares/Auth.js";
 
 const router = express.Router();
 
-router.get('/', isAuthenticated, async(req,res)=>{
-    const user = await UserModel.findById(req.user.id).select('-password');
-    res.status(200).json(user);
-});
+router.get("/", auth, profile);
 
 export default router;

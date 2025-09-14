@@ -1,11 +1,8 @@
-import { NFTStorage, File } from 'nft.storage';
-import fs from 'fs';
+import { create } from "ipfs-http-client";
 
-const client = new NFTStorage({ token: process.env.NFT_STORAGE_KEY });
+const client = create({ url: "https://ipfs.infura.io:5001" });
 
-export const uploadToIPFS = async (filePath) => {
-    const content = fs.readFileSync(filePath);
-    const file = new File([content], filePath);
-    const cid = await client.storeBlob(file);
-    return `ipfs://${cid}`;
-};
+export async function uploadToIPFS(fileBuffer) {
+  const { path } = await client.add(fileBuffer);
+  return path; // CID
+}

@@ -1,32 +1,51 @@
-import fs from 'fs'
-import path from 'path'
-import dynamic from 'next/dynamic'
-import { motion } from 'framer-motion'
+"use client"
+import { useEffect, useState } from "react"
 
-const BarMonthly = dynamic(()=>import('@/components/charts/DashboardBar'), { ssr: false })
+export default function Dashboard() {
+  const [user, setUser] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const [file, setFile] = useState(null)
+  const token = typeof window !== "undefined" ? localStorage.getItem("token") : null
 
-export async function getServerSideProps(){
-  const filePath = path.join(process.cwd(), 'data', 'dashboard.json')
-  const payload = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
-  return { props: { payload } }
-}
+  useEffect(() => {
+    if (!token) return
+    fetch("http://localhost:5000/api/profile", {
+      headers: { Authorization: `Bearer ${token}` }
+    })
+      .then(res => res.json())
+      .then(data => { setUser(data); setLoading(false) })
+  }, [token])
 
-export default function Dashboard({ payload }){
+  async function handleVerify() {
+    if (!file) return alert("Upload a document first")
+    const formData = new FormData()
+    formData.append("doc", file)
+    const res = await fetch("http://localhost:5000/api/verify", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${token}` },
+      body: formData
+    })
+    const data = await res.json()
+    if(res.ok) setUser(data.user)
+    alert(data.message)
+  }
+
+  if (loading) return <p>Loading...</p>
+
   return (
-    <main className="pt-28 px-6 max-w-7xl mx-auto">
-      <motion.h1 initial={{opacity:0, y:20}} whileInView={{opacity:1, y:0}} transition={{duration:0.6}} className="text-4xl font-extrabold mb-6">Admin Dashboard</motion.h1>
+    <main className="p-6">
+      <h1 className="text-3xl font-bold">Welcome, {user.name}</h1>
+      <p>Email: {user.email}</p>
+      <p>Phone: {user.phone}</p>
+      <p>Region: {user.region}</p>
+      <p>Status: {user.verified ? "✅ Verified" : "❌ Not Verified"}</p>
 
-      <div className="grid md:grid-cols-4 gap-6">
-        <div className="card"><p className="text-sm text-gray-500">Prediction Accuracy</p><p className="text-3xl font-bold">{payload.prediction_accuracy}%</p></div>
-        <div className="card"><p className="text-sm text-gray-500">Blockchain Entries</p><p className="text-3xl font-bold">{payload.blockchain_entries}</p></div>
-        <div className="card"><p className="text-sm text-gray-500">Counterfeit Cases</p><p className="text-3xl font-bold">{payload.counterfeit_cases_detected}</p></div>
-        <div className="card"><p className="text-sm text-gray-500">Supply Chain Nodes</p><p className="text-3xl font-bold">{payload.supply_chain_nodes}</p></div>
-      </div>
-
-      <div className="card mt-6">
-        <h3 className="text-xl font-semibold mb-3">Monthly Trend</h3>
-        <BarMonthly data={payload.monthlyTrend}/>
-      </div>
+      {!user.verified && (
+        <div className="mt-4">
+          <input type="file" onChange={e=>setFile(e.target.files[0])}/>
+          <button onClick={handleVerify} className="px-4 py-2 bg-green-600 text-white rounded ml-2">Verify Identity</button>
+        </div>
+      )}
     </main>
   )
 }

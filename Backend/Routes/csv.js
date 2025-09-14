@@ -1,10 +1,9 @@
-import express from 'express';
-import multer from 'multer';
-import { uploadCsv } from '../Controllers/CsvController.js';
-import isAuthenticated from '../Middlewares/Auth.js';
+import express from "express";
+import { loadCsv, getCsvData } from "../Controllers/CsvController.js";
 
 const router = express.Router();
-const upload = multer({ dest: 'uploads/' });
-router.post('/upload', isAuthenticated, upload.single('file'), uploadCsv);
+
+router.get("/load", loadCsv);
+router.get("/", getCsvData);
 
 export default router;

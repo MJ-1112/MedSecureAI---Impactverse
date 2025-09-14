@@ -1,10 +1,11 @@
-import express from 'express';
-import multer from 'multer';
-import { uploadDoc } from '../Controllers/VerifyController.js';
-import isAuthenticated from '../Middlewares/Auth.js';
+import express from "express";
+import multer from "multer";
+import { verifyUser } from "../Controllers/VerifyController.js";
+import auth from "../Middlewares/Auth.js";
 
 const router = express.Router();
-const upload = multer({ dest: 'uploads/' });
-router.post('/upload-doc', isAuthenticated, upload.single('doc'), uploadDoc);
+const upload = multer();
+
+router.post("/", auth, upload.single("doc"), verifyUser);
 
 export default router;
