@@ -5,11 +5,11 @@ import { useRouter } from 'next/router'
 export default function Sidebar(){
   const router = useRouter()
   const items = [
-    {href:'/profile', label:'Profile', icon: User},
+    
     {href:'/dashboard', label:'Dashboard', icon: Home},
     {href:'/orders', label:'Orders', icon: PackageSearch},
     {href:'/meddata', label:'Med Data', icon: Database},
-    {href:'/logout', label:'Logout', icon: LogOut},
+    
   ]
   return (
     <aside className="w-64 hidden md:block fixed top-16 left-4 bottom-6">
